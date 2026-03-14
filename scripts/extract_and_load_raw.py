@@ -1,10 +1,10 @@
 # scripts/extract_and_load_raw.py
-import os
+import os, random
 import pandas as pd
 from sqlalchemy import create_engine, text
 from sqlalchemy.orm import sessionmaker
 from models.claims_models import RawClaim, Base
-from datetime import datetime
+from datetime import datetime, timedelta
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -24,9 +24,11 @@ SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 # 可以不用session只用engine，但只能获得原始tuple且会让代码里充满sql语句
 
 # ── 文件路径 ──────────────────────────────────────────────────
-RAW_FILE = "data/raw/insurance_claims_raw.csv"   # ← 改成你实际的文件名
+ROOT_DIR =  os.path.dirname(os.path.dirname((os.path.abspath(__file__))))
 
-def load_csv_to_db():
+RAW_FILE = os.path.join(ROOT_DIR, "data", "raw", "insurance_claims_raw.csv")   # ← 改成你实际的文件名
+
+def extract_and_load_raw(full_refresh: bool = True):
     if not os.path.exists(RAW_FILE):
         print(f"文件不存在：{RAW_FILE}")
         return
@@ -56,8 +58,15 @@ def load_csv_to_db():
     df["children"] = pd.to_numeric(df["children"], errors="coerce").astype("Int64")
     df["charges"] = pd.to_numeric(df["charges"], errors="coerce")
 
-    # 模拟 claim_date（因为原数据集没有，我们用当前时间填充）
-    df["claim_date"] = datetime.utcnow()
+    # # 模拟 claim_date（因为原数据集没有，我们用当前时间填充）
+    # df["claim_date"] = datetime.utcnow()
+
+    # 模拟真实理赔日期：随机分布在过去 2 年内
+    base_date = datetime(2024, 1, 1)
+    df["claim_date"] = [
+        base_date + timedelta(days=random.randint(0, 730))  # 随机 0~730 天
+        for _ in range(len(df))
+    ]
 
     # fraud_flag 先全部设为 False，后面 transform 再判断
     df["fraud_flag"] = False
@@ -67,22 +76,25 @@ def load_csv_to_db():
     # ── 插入数据库（幂等方式） ────────────────────────────────
     session = SessionLocal()
 
+
     try:
         # 先检查表里已有多少记录（用于对比）
+        if full_refresh:
+            # 全量刷新（Full Refresh）
+            session.execute(text("TRUNCATE TABLE raw_claims RESTART IDENTITY;"))
+            session.commit()
+            print("已清空 raw_claims 表（full refresh 模式）")
+
         count_before = session.execute(text("SELECT COUNT(*) FROM raw_claims")).scalar()
         print(f"插入前有{count_before}条记录")
 
-        inserted = 0
-        for _, row in df.iterrows():
-            # 用 dict 创建对象，避免字段顺序问题
-            record = RawClaim(**row.to_dict())
 
-            # 简单幂等：这里用最简单的方式（生产中建议加唯一约束或业务键）
-            # 暂时我们允许重复插入，后面 DAG 可以加清空/upsert 逻辑
-            session.add(record)
-            inserted += 1
+        # 批量插入（效率更高，但不适用10000条以上，会爆内存）
 
+        records = [RawClaim(**row.to_dict()) for _ , row in df.iterrows()]
+        session.bulk_save_objects(records)
         session.commit()
+        inserted = len(records)
         print(f"成功插入{inserted} 条记录")
 
         count_after = session.execute(text("SELECT COUNT(*) FROM raw_claims")).scalar()
@@ -95,9 +107,11 @@ def load_csv_to_db():
 
     finally:
         session.close()
+
+    # return inserted
     
 
 if __name__ == "__main__":
     print("开始执行 extract → PostgreSQL")
-    load_csv_to_db()
+    extract_and_load_raw(full_refresh=True)
     print("执行结束")

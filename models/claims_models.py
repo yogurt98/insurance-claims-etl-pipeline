@@ -23,3 +23,29 @@ class RawClaim(Base):
 
     def __repr__(self):
         return f"<RawClaim(id={self.id}, age={self.age}, charges={self.charges}, smoker={self.smoker})>"
+
+class TransformedClaim(Base):
+    __tablename__ = "transformed_claims"
+
+    id = Column(Integer, primary_key=True)
+    age = Column(Integer)
+    age_group = Column(String(10))
+    sex = Column(String(10))
+    bmi = Column(Float)
+    children = Column(Integer)
+    smoker = Column(String(10))
+    smoker_flag = Column(Integer)
+    region = Column(String(50))
+    charges = Column(Float)
+    charge_group = Column(String(20))
+    currency = Column(String(10))
+    claim_date = Column(DateTime)
+    claim_year = Column(Integer)
+    claim_month = Column(Integer)
+    claim_quarter = Column(Integer)
+    claim_day_of_week = Column(Integer)
+    fraud_flag = Column(Boolean)
+    claim_type = Column(String(50))
+
+    def __repr__(self):
+        return f"<TransformedClaim(id={self.id}, fraud_flag={self.fraud_flag})>"

@@ -1,0 +1,1339 @@
+id,age,age_group,sex,bmi,children,smoker,smoker_flag,region,charges,charge_group,currency,claim_date,claim_year,claim_month,claim_quarter,claim_day_of_week,fraud_flag,claim_type
+1,19,18-24,female,27.9,0,yes,1,southwest,16884.924,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+2,18,18-24,male,33.77,1,no,0,southeast,1725.5523,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+3,28,25-34,male,33.0,3,no,0,southeast,4449.462,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+4,33,25-34,male,22.705,0,no,0,northwest,21984.47061,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+5,32,25-34,male,28.88,0,no,0,northwest,3866.8552,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+6,31,25-34,female,25.74,0,no,0,southeast,3756.6216,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+7,46,45-54,female,33.44,1,no,0,southeast,8240.5896,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+8,37,35-44,female,27.74,3,no,0,northwest,7281.5056,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+9,37,35-44,male,29.83,2,no,0,northeast,6406.4107,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+10,60,55-64,female,25.84,0,no,0,northwest,28923.13692,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+11,25,25-34,male,26.22,0,no,0,northeast,2721.3208,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+12,62,55-64,female,26.29,0,yes,1,southeast,27808.7251,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+13,23,18-24,male,34.4,0,no,0,southwest,1826.843,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+14,56,55-64,female,39.82,0,no,0,southeast,11090.7178,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+15,27,25-34,male,42.13,0,yes,1,southeast,39611.7577,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+16,19,18-24,male,24.6,1,no,0,southwest,1837.237,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+17,52,45-54,female,30.78,1,no,0,northeast,10797.3362,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+18,23,18-24,male,23.845,0,no,0,northeast,2395.17155,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+19,56,55-64,male,40.3,0,no,0,southwest,10602.385,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+20,30,25-34,male,35.3,0,yes,1,southwest,36837.467,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+21,60,55-64,female,36.005,0,no,0,northeast,13228.84695,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+22,30,25-34,female,32.4,1,no,0,southwest,4149.736,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+23,18,18-24,male,34.1,0,no,0,southeast,1137.011,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+24,34,35-44,female,31.92,1,yes,1,northeast,37701.8768,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+25,37,35-44,male,28.025,2,no,0,northwest,6203.90175,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+26,59,55-64,female,27.72,3,no,0,southeast,14001.1338,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+27,63,55-64,female,23.085,0,no,0,northeast,14451.83515,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+28,55,55-64,female,32.775,2,no,0,northwest,12268.63225,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+29,23,18-24,male,17.385,1,no,0,northwest,2775.19215,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+30,31,25-34,male,36.3,2,yes,1,southwest,38711.0,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+31,22,18-24,male,35.6,0,yes,1,southwest,35585.576,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+32,18,18-24,female,26.315,0,no,0,northeast,2198.18985,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+33,19,18-24,female,28.6,5,no,0,southwest,4687.797,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+34,63,55-64,male,28.31,0,no,0,northwest,13770.0979,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+35,28,25-34,male,36.4,1,yes,1,southwest,51194.55914,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+36,19,18-24,male,20.425,0,no,0,northwest,1625.43375,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+37,62,55-64,female,32.965,3,no,0,northwest,15612.19335,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+38,26,25-34,male,20.8,0,no,0,southwest,2302.3,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+39,35,35-44,male,36.67,1,yes,1,northeast,39774.2763,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+40,60,55-64,male,39.9,0,yes,1,southwest,48173.361,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+41,24,25-34,female,26.6,0,no,0,northeast,3046.062,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+42,31,25-34,female,36.63,2,no,0,southeast,4949.7587,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+43,41,35-44,male,21.78,1,no,0,southeast,6272.4772,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+44,37,35-44,female,30.8,2,no,0,southeast,6313.759,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+45,38,35-44,male,37.05,1,no,0,northeast,6079.6715,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+46,55,55-64,male,37.3,0,no,0,southwest,20630.28351,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+47,18,18-24,female,38.665,2,no,0,northeast,3393.35635,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+48,28,25-34,female,34.77,0,no,0,northwest,3556.9223,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+49,60,55-64,female,24.53,0,no,0,southeast,12629.8967,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+50,36,35-44,male,35.2,1,yes,1,southeast,38709.176,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+51,18,18-24,female,35.625,0,no,0,northeast,2211.13075,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+52,21,18-24,female,33.63,2,no,0,northwest,3579.8287,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+53,48,45-54,male,28.0,1,yes,1,southwest,23568.272,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+54,36,35-44,male,34.43,0,yes,1,southeast,37742.5757,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+55,40,35-44,female,28.69,3,no,0,northwest,8059.6791,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+56,58,55-64,male,36.955,2,yes,1,northwest,47496.49445,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+57,58,55-64,female,31.825,2,no,0,northeast,13607.36875,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+58,18,18-24,male,31.68,2,yes,1,southeast,34303.1672,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+59,53,45-54,female,22.88,1,yes,1,southeast,23244.7902,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+60,34,35-44,female,37.335,2,no,0,northwest,5989.52365,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+61,43,35-44,male,27.36,3,no,0,northeast,8606.2174,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+62,25,25-34,male,33.66,4,no,0,southeast,4504.6624,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+63,64,65+,male,24.7,1,no,0,northwest,30166.61817,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+64,28,25-34,female,25.935,1,no,0,northwest,4133.64165,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+65,20,18-24,female,22.42,0,yes,1,northwest,14711.7438,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+66,19,18-24,female,28.9,0,no,0,southwest,1743.214,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+67,61,55-64,female,39.1,2,no,0,southwest,14235.072,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+68,40,35-44,male,26.315,1,no,0,northwest,6389.37785,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+69,40,35-44,female,36.19,0,no,0,southeast,5920.1041,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+70,28,25-34,male,23.98,3,yes,1,southeast,17663.1442,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+71,27,25-34,female,24.75,0,yes,1,southeast,16577.7795,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+72,31,25-34,male,28.5,5,no,0,northeast,6799.458,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+73,53,45-54,female,28.1,3,no,0,southwest,11741.726,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+74,58,55-64,male,32.01,1,no,0,southeast,11946.6259,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+75,44,45-54,male,27.4,2,no,0,southwest,7726.854,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+76,57,55-64,male,34.01,0,no,0,northwest,11356.6609,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+77,29,25-34,female,29.59,1,no,0,southeast,3947.4131,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+78,21,18-24,male,35.53,0,no,0,southeast,1532.4697,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+79,22,18-24,female,39.805,0,no,0,northeast,2755.02095,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+80,41,35-44,female,32.965,0,no,0,northwest,6571.02435,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+81,31,25-34,male,26.885,1,no,0,northeast,4441.21315,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+82,45,45-54,female,38.285,0,no,0,northeast,7935.29115,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+83,22,18-24,male,37.62,1,yes,1,southeast,37165.1638,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+84,48,45-54,female,41.23,4,no,0,northwest,11033.6617,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+85,37,35-44,female,34.8,2,yes,1,southwest,39836.519,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+86,45,45-54,male,22.895,2,yes,1,northwest,21098.55405,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+87,57,55-64,female,31.16,0,yes,1,northwest,43578.9394,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+88,56,55-64,female,27.2,0,no,0,southwest,11073.176,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+89,46,45-54,female,27.74,0,no,0,northwest,8026.6666,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+90,55,55-64,female,26.98,0,no,0,northwest,11082.5772,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+91,21,18-24,female,39.49,0,no,0,southeast,2026.9741,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+92,53,45-54,female,24.795,1,no,0,northwest,10942.13205,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+93,59,55-64,male,29.83,3,yes,1,northeast,30184.9367,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+94,35,35-44,male,34.77,2,no,0,northwest,5729.0053,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+95,64,65+,female,31.3,2,yes,1,southwest,47291.055,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+96,28,25-34,female,37.62,1,no,0,southeast,3766.8838,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+97,54,55-64,female,30.8,3,no,0,southwest,12105.32,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+98,55,55-64,male,38.28,0,no,0,southeast,10226.2842,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+99,56,55-64,male,19.95,0,yes,1,northeast,22412.6485,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+100,38,35-44,male,19.3,0,yes,1,southwest,15820.699,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+101,41,35-44,female,31.6,0,no,0,southwest,6186.127,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+102,30,25-34,male,25.46,0,no,0,northeast,3645.0894,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+103,18,18-24,female,30.115,0,no,0,northeast,21344.8467,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+104,61,55-64,female,29.92,3,yes,1,southeast,30942.1918,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+105,34,35-44,female,27.5,1,no,0,southwest,5003.853,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+106,20,18-24,male,28.025,1,yes,1,northwest,17560.37975,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+107,19,18-24,female,28.4,1,no,0,southwest,2331.519,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+108,26,25-34,male,30.875,2,no,0,northwest,3877.30425,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+109,29,25-34,male,27.94,0,no,0,southeast,2867.1196,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+110,63,55-64,male,35.09,0,yes,1,southeast,47055.5321,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+111,54,55-64,male,33.63,1,no,0,northwest,10825.2537,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+112,55,55-64,female,29.7,2,no,0,southwest,11881.358,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+113,37,35-44,male,30.8,0,no,0,southwest,4646.759,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+114,21,18-24,female,35.72,0,no,0,northwest,2404.7338,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+115,52,45-54,male,32.205,3,no,0,northeast,11488.31695,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+116,60,55-64,male,28.595,0,no,0,northeast,30259.99556,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+117,58,55-64,male,49.06,0,no,0,southeast,11381.3254,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+118,29,25-34,female,27.94,1,yes,1,southeast,19107.7796,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+119,49,45-54,female,27.17,0,no,0,southeast,8601.3293,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+120,37,35-44,female,23.37,2,no,0,northwest,6686.4313,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+121,44,45-54,male,37.1,2,no,0,southwest,7740.337,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+122,18,18-24,male,23.75,0,no,0,northeast,1705.6245,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+123,20,18-24,female,28.975,0,no,0,northwest,2257.47525,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+124,44,45-54,male,31.35,1,yes,1,northeast,39556.4945,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+125,47,45-54,female,33.915,3,no,0,northwest,10115.00885,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+126,26,25-34,female,28.785,0,no,0,northeast,3385.39915,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+127,19,18-24,female,28.3,0,yes,1,southwest,17081.08,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+128,52,45-54,female,37.4,0,no,0,southwest,9634.538,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+129,32,25-34,female,17.765,2,yes,1,northwest,32734.1863,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+130,38,35-44,male,34.7,2,no,0,southwest,6082.405,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+131,59,55-64,female,26.505,0,no,0,northeast,12815.44495,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+132,61,55-64,female,22.04,0,no,0,northeast,13616.3586,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+133,53,45-54,female,35.9,2,no,0,southwest,11163.568,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+134,19,18-24,male,25.555,0,no,0,northwest,1632.56445,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+135,20,18-24,female,28.785,0,no,0,northeast,2457.21115,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+136,22,18-24,female,28.05,0,no,0,southeast,2155.6815,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+137,19,18-24,male,34.1,0,no,0,southwest,1261.442,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+138,22,18-24,male,25.175,0,no,0,northwest,2045.68525,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+139,54,55-64,female,31.9,3,no,0,southeast,27322.73386,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+140,22,18-24,female,36.0,0,no,0,southwest,2166.732,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+141,34,35-44,male,22.42,2,no,0,northeast,27375.90478,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+142,26,25-34,male,32.49,1,no,0,northeast,3490.5491,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+143,34,35-44,male,25.3,2,yes,1,southeast,18972.495,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+144,29,25-34,male,29.735,2,no,0,northwest,18157.876,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+145,30,25-34,male,28.69,3,yes,1,northwest,20745.9891,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+146,29,25-34,female,38.83,3,no,0,southeast,5138.2567,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+147,46,45-54,male,30.495,3,yes,1,northwest,40720.55105,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+148,51,45-54,female,37.73,1,no,0,southeast,9877.6077,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+149,53,45-54,female,37.43,1,no,0,northwest,10959.6947,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+150,19,18-24,male,28.4,1,no,0,southwest,1842.519,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+151,35,35-44,male,24.13,1,no,0,northwest,5125.2157,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+152,48,45-54,male,29.7,0,no,0,southeast,7789.635,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+153,32,25-34,female,37.145,3,no,0,northeast,6334.34355,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+154,42,35-44,female,23.37,0,yes,1,northeast,19964.7463,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+155,40,35-44,female,25.46,1,no,0,northeast,7077.1894,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+156,44,45-54,male,39.52,0,no,0,northwest,6948.7008,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+157,48,45-54,male,24.42,0,yes,1,southeast,21223.6758,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+158,18,18-24,male,25.175,0,yes,1,northeast,15518.18025,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+159,30,25-34,male,35.53,0,yes,1,southeast,36950.2567,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+160,50,45-54,female,27.83,3,no,0,southeast,19749.38338,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+161,42,35-44,female,26.6,0,yes,1,northwest,21348.706,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+162,18,18-24,female,36.85,0,yes,1,southeast,36149.4835,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+163,54,55-64,male,39.6,1,no,0,southwest,10450.552,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+164,32,25-34,female,29.8,2,no,0,southwest,5152.134,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+165,37,35-44,male,29.64,0,no,0,northwest,5028.1466,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+166,47,45-54,male,28.215,4,no,0,northeast,10407.08585,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+167,20,18-24,female,37.0,5,no,0,southwest,4830.63,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+168,32,25-34,female,33.155,3,no,0,northwest,6128.79745,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+169,19,18-24,female,31.825,1,no,0,northwest,2719.27975,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+170,27,25-34,male,18.905,3,no,0,northeast,4827.90495,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+171,63,55-64,male,41.47,0,no,0,southeast,13405.3903,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+172,49,45-54,male,30.3,0,no,0,southwest,8116.68,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+173,18,18-24,male,15.96,0,no,0,northeast,1694.7964,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+174,35,35-44,female,34.8,1,no,0,southwest,5246.047,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+175,24,25-34,female,33.345,0,no,0,northwest,2855.43755,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+176,63,55-64,female,37.7,0,yes,1,southwest,48824.45,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+177,38,35-44,male,27.835,2,no,0,northwest,6455.86265,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+178,54,55-64,male,29.2,1,no,0,southwest,10436.096,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+179,46,45-54,female,28.9,2,no,0,southwest,8823.279,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+180,41,35-44,female,33.155,3,no,0,northeast,8538.28845,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+181,58,55-64,male,28.595,0,no,0,northwest,11735.87905,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+182,18,18-24,female,38.28,0,no,0,southeast,1631.8212,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+183,22,18-24,male,19.95,3,no,0,northeast,4005.4225,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+184,44,45-54,female,26.41,0,no,0,northwest,7419.4779,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+185,44,45-54,male,30.69,2,no,0,southeast,7731.4271,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+186,36,35-44,male,41.895,3,yes,1,northeast,43753.33705,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+187,26,25-34,female,29.92,2,no,0,southeast,3981.9768,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+188,30,25-34,female,30.9,3,no,0,southwest,5325.651,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+189,41,35-44,female,32.2,1,no,0,southwest,6775.961,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+190,29,25-34,female,32.11,2,no,0,northwest,4922.9159,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+191,61,55-64,male,31.57,0,no,0,southeast,12557.6053,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+192,36,35-44,female,26.2,0,no,0,southwest,4883.866,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+193,25,25-34,male,25.74,0,no,0,southeast,2137.6536,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+194,56,55-64,female,26.6,1,no,0,northwest,12044.342,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+195,18,18-24,male,34.43,0,no,0,southeast,1137.4697,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+196,19,18-24,male,30.59,0,no,0,northwest,1639.5631,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+197,39,35-44,female,32.8,0,no,0,southwest,5649.715,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+198,45,45-54,female,28.6,2,no,0,southeast,8516.829,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+199,51,45-54,female,18.05,0,no,0,northwest,9644.2525,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+200,64,65+,female,39.33,0,no,0,northeast,14901.5167,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+201,19,18-24,female,32.11,0,no,0,northwest,2130.6759,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+202,48,45-54,female,32.23,1,no,0,southeast,8871.1517,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+203,60,55-64,female,24.035,0,no,0,northwest,13012.20865,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+204,27,25-34,female,36.08,0,yes,1,southeast,37133.8982,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+205,46,45-54,male,22.3,0,no,0,southwest,7147.105,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+206,28,25-34,female,28.88,1,no,0,northeast,4337.7352,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+207,59,55-64,male,26.4,0,no,0,southeast,11743.299,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+208,35,35-44,male,27.74,2,yes,1,northeast,20984.0936,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+209,63,55-64,female,31.8,0,no,0,southwest,13880.949,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+210,40,35-44,male,41.23,1,no,0,northeast,6610.1097,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+211,20,18-24,male,33.0,1,no,0,southwest,1980.07,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+212,40,35-44,male,30.875,4,no,0,northwest,8162.71625,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+213,24,25-34,male,28.5,2,no,0,northwest,3537.703,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+214,34,35-44,female,26.73,1,no,0,southeast,5002.7827,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+215,45,45-54,female,30.9,2,no,0,southwest,8520.026,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+216,41,35-44,female,37.1,2,no,0,southwest,7371.772,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+217,53,45-54,female,26.6,0,no,0,northwest,10355.641,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+218,27,25-34,male,23.1,0,no,0,southeast,2483.736,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+219,26,25-34,female,29.92,1,no,0,southeast,3392.9768,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+220,24,25-34,female,23.21,0,no,0,southeast,25081.76784,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+221,34,35-44,female,33.7,1,no,0,southwest,5012.471,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+222,53,45-54,female,33.25,0,no,0,northeast,10564.8845,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+223,32,25-34,male,30.8,3,no,0,southwest,5253.524,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+224,19,18-24,male,34.8,0,yes,1,southwest,34779.615,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+225,42,35-44,male,24.64,0,yes,1,southeast,19515.5416,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+226,55,55-64,male,33.88,3,no,0,southeast,11987.1682,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+227,28,25-34,male,38.06,0,no,0,southeast,2689.4954,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+228,58,55-64,female,41.91,0,no,0,southeast,24227.33724,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+229,41,35-44,female,31.635,1,no,0,northeast,7358.17565,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+230,47,45-54,male,25.46,2,no,0,northeast,9225.2564,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+231,42,35-44,female,36.195,1,no,0,northwest,7443.64305,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+232,59,55-64,female,27.83,3,no,0,southeast,14001.2867,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+233,19,18-24,female,17.8,0,no,0,southwest,1727.785,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+234,59,55-64,male,27.5,1,no,0,southwest,12333.828,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+235,39,35-44,male,24.51,2,no,0,northwest,6710.1919,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+236,40,35-44,female,22.22,2,yes,1,southeast,19444.2658,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+237,18,18-24,female,26.73,0,no,0,southeast,1615.7667,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+238,31,25-34,male,38.39,2,no,0,southeast,4463.2051,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+239,19,18-24,male,29.07,0,yes,1,northwest,17352.6803,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+240,44,45-54,male,38.06,1,no,0,southeast,7152.6714,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+241,23,18-24,female,36.67,2,yes,1,northeast,38511.6283,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+242,33,25-34,female,22.135,1,no,0,northeast,5354.07465,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+243,55,55-64,female,26.8,1,no,0,southwest,35160.13457,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+244,40,35-44,male,35.3,3,no,0,southwest,7196.867,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+245,63,55-64,female,27.74,0,yes,1,northeast,29523.1656,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+246,54,55-64,male,30.02,0,no,0,northwest,24476.47851,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+247,60,55-64,female,38.06,0,no,0,southeast,12648.7034,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+248,24,25-34,male,35.86,0,no,0,southeast,1986.9334,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+249,19,18-24,male,20.9,1,no,0,southwest,1832.094,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+250,29,25-34,male,28.975,1,no,0,northeast,4040.55825,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+251,18,18-24,male,17.29,2,yes,1,northeast,12829.4551,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+252,63,55-64,female,32.2,2,yes,1,southwest,47305.305,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+253,54,55-64,male,34.21,2,yes,1,southeast,44260.7499,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+254,27,25-34,male,30.3,3,no,0,southwest,4260.744,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+255,50,45-54,male,31.825,0,yes,1,northeast,41097.16175,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+256,55,55-64,female,25.365,3,no,0,northeast,13047.33235,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+257,56,55-64,male,33.63,0,yes,1,northwest,43921.1837,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+258,38,35-44,female,40.15,0,no,0,southeast,5400.9805,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+259,51,45-54,male,24.415,4,no,0,northwest,11520.09985,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+260,19,18-24,male,31.92,0,yes,1,northwest,33750.2918,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+261,58,55-64,female,25.2,0,no,0,southwest,11837.16,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+262,20,18-24,female,26.84,1,yes,1,southeast,17085.2676,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+263,52,45-54,male,24.32,3,yes,1,northeast,24869.8368,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+264,19,18-24,male,36.955,0,yes,1,northwest,36219.40545,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+265,53,45-54,female,38.06,3,no,0,southeast,20462.99766,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+266,46,45-54,male,42.35,3,yes,1,southeast,46151.1245,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+267,40,35-44,male,19.8,1,yes,1,southeast,17179.522,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+268,59,55-64,female,32.395,3,no,0,northeast,14590.63205,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+269,45,45-54,male,30.2,1,no,0,southwest,7441.053,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+270,49,45-54,male,25.84,1,no,0,northeast,9282.4806,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+271,18,18-24,male,29.37,1,no,0,southeast,1719.4363,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+272,50,45-54,male,34.2,2,yes,1,southwest,42856.838,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+273,41,35-44,male,37.05,2,no,0,northwest,7265.7025,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+274,50,45-54,male,27.455,1,no,0,northeast,9617.66245,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+275,25,25-34,male,27.55,0,no,0,northwest,2523.1695,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+276,47,45-54,female,26.6,2,no,0,northeast,9715.841,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+277,19,18-24,male,20.615,2,no,0,northwest,2803.69785,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+278,22,18-24,female,24.3,0,no,0,southwest,2150.469,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+279,59,55-64,male,31.79,2,no,0,southeast,12928.7911,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+280,51,45-54,female,21.56,1,no,0,southeast,9855.1314,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+281,40,35-44,female,28.12,1,yes,1,northeast,22331.5668,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+282,54,55-64,male,40.565,3,yes,1,northeast,48549.17835,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+283,30,25-34,male,27.645,1,no,0,northeast,4237.12655,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+284,55,55-64,female,32.395,1,no,0,northeast,11879.10405,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+285,52,45-54,female,31.2,0,no,0,southwest,9625.92,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+286,46,45-54,male,26.62,1,no,0,southeast,7742.1098,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+287,46,45-54,female,48.07,2,no,0,northeast,9432.9253,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+288,63,55-64,female,26.22,0,no,0,northwest,14256.1928,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+289,59,55-64,female,36.765,1,yes,1,northeast,47896.79135,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+290,52,45-54,male,26.4,3,no,0,southeast,25992.82104,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+291,28,25-34,female,33.4,0,no,0,southwest,3172.018,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+292,29,25-34,male,29.64,1,no,0,northeast,20277.80751,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+293,25,25-34,male,45.54,2,yes,1,southeast,42112.2356,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+294,22,18-24,female,28.82,0,no,0,southeast,2156.7518,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+295,25,25-34,male,26.8,3,no,0,southwest,3906.127,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+296,18,18-24,male,22.99,0,no,0,northeast,1704.5681,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+297,19,18-24,male,27.7,0,yes,1,southwest,16297.846,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+298,47,45-54,male,25.41,1,yes,1,southeast,21978.6769,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+299,31,25-34,male,34.39,3,yes,1,northwest,38746.3551,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+300,48,45-54,female,28.88,1,no,0,northwest,9249.4952,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+301,36,35-44,male,27.55,3,no,0,northeast,6746.7425,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+302,53,45-54,female,22.61,3,yes,1,northeast,24873.3849,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+303,56,55-64,female,37.51,2,no,0,southeast,12265.5069,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+304,28,25-34,female,33.0,2,no,0,southeast,4349.462,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+305,57,55-64,female,38.0,2,no,0,southwest,12646.207,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+306,29,25-34,male,33.345,2,no,0,northwest,19442.3535,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+307,28,25-34,female,27.5,2,no,0,southwest,20177.67113,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+308,30,25-34,female,33.33,1,no,0,southeast,4151.0287,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+309,58,55-64,male,34.865,0,no,0,northeast,11944.59435,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+310,41,35-44,female,33.06,2,no,0,northwest,7749.1564,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+311,50,45-54,male,26.6,0,no,0,southwest,8444.474,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+312,19,18-24,female,24.7,0,no,0,southwest,1737.376,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+313,43,35-44,male,35.97,3,yes,1,southeast,42124.5153,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+314,49,45-54,male,35.86,0,no,0,southeast,8124.4084,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+315,27,25-34,female,31.4,0,yes,1,southwest,34838.873,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+316,52,45-54,male,33.25,0,no,0,northeast,9722.7695,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+317,50,45-54,male,32.205,0,no,0,northwest,8835.26495,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+318,54,55-64,male,32.775,0,no,0,northeast,10435.06525,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+319,44,45-54,female,27.645,0,no,0,northwest,7421.19455,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+320,32,25-34,male,37.335,1,no,0,northeast,4667.60765,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+321,34,35-44,male,25.27,1,no,0,northwest,4894.7533,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+322,26,25-34,female,29.64,4,no,0,northeast,24671.66334,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+323,34,35-44,male,30.8,0,yes,1,southwest,35491.64,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+324,57,55-64,male,40.945,0,no,0,northeast,11566.30055,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+325,29,25-34,male,27.2,0,no,0,southwest,2866.091,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+326,40,35-44,male,34.105,1,no,0,northeast,6600.20595,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+327,27,25-34,female,23.21,1,no,0,southeast,3561.8889,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+328,45,45-54,male,36.48,2,yes,1,northwest,42760.5022,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+329,64,65+,female,33.8,1,yes,1,southwest,47928.03,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+330,52,45-54,male,36.7,0,no,0,southwest,9144.565,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+331,61,55-64,female,36.385,1,yes,1,northeast,48517.56315,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+332,52,45-54,male,27.36,0,yes,1,northwest,24393.6224,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+333,61,55-64,female,31.16,0,no,0,northwest,13429.0354,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+334,56,55-64,female,28.785,0,no,0,northeast,11658.37915,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+335,43,35-44,female,35.72,2,no,0,northeast,19144.57652,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+336,64,65+,male,34.5,0,no,0,southwest,13822.803,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+337,60,55-64,male,25.74,0,no,0,southeast,12142.5786,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+338,62,55-64,male,27.55,1,no,0,northwest,13937.6665,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+339,50,45-54,male,32.3,1,yes,1,northeast,41919.097,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+340,46,45-54,female,27.72,1,no,0,southeast,8232.6388,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+341,24,25-34,female,27.6,0,no,0,southwest,18955.22017,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+342,62,55-64,male,30.02,0,no,0,northwest,13352.0998,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+343,60,55-64,female,27.55,0,no,0,northeast,13217.0945,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+344,63,55-64,male,36.765,0,no,0,northeast,13981.85035,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+345,49,45-54,female,41.47,4,no,0,southeast,10977.2063,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+346,34,35-44,female,29.26,3,no,0,southeast,6184.2994,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+347,33,25-34,male,35.75,2,no,0,southeast,4889.9995,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+348,46,45-54,male,33.345,1,no,0,northeast,8334.45755,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+349,36,35-44,female,29.92,1,no,0,southeast,5478.0368,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+350,19,18-24,male,27.835,0,no,0,northwest,1635.73365,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+351,57,55-64,female,23.18,0,no,0,northwest,11830.6072,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+352,50,45-54,female,25.6,0,no,0,southwest,8932.084,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+353,30,25-34,female,27.7,0,no,0,southwest,3554.203,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+354,33,25-34,male,35.245,0,no,0,northeast,12404.8791,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+355,18,18-24,female,38.28,0,no,0,southeast,14133.03775,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+356,46,45-54,male,27.6,0,no,0,southwest,24603.04837,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+357,46,45-54,male,43.89,3,no,0,southeast,8944.1151,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+358,47,45-54,male,29.83,3,no,0,northwest,9620.3307,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+359,23,18-24,male,41.91,0,no,0,southeast,1837.2819,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+360,18,18-24,female,20.79,0,no,0,southeast,1607.5101,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+361,48,45-54,female,32.3,2,no,0,northeast,10043.249,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+362,35,35-44,male,30.5,1,no,0,southwest,4751.07,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+363,19,18-24,female,21.7,0,yes,1,southwest,13844.506,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+364,21,18-24,female,26.4,1,no,0,southwest,2597.779,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+365,21,18-24,female,21.89,2,no,0,southeast,3180.5101,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+366,49,45-54,female,30.78,1,no,0,northeast,9778.3472,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+367,56,55-64,female,32.3,3,no,0,northeast,13430.265,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+368,42,35-44,female,24.985,2,no,0,northwest,8017.06115,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+369,44,45-54,male,32.015,2,no,0,northwest,8116.26885,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+370,18,18-24,male,30.4,3,no,0,northeast,3481.868,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+371,61,55-64,female,21.09,0,no,0,northwest,13415.0381,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+372,57,55-64,female,22.23,0,no,0,northeast,12029.2867,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+373,42,35-44,female,33.155,1,no,0,northeast,7639.41745,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+374,26,25-34,male,32.9,2,yes,1,southwest,36085.219,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+375,20,18-24,male,33.33,0,no,0,southeast,1391.5287,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+376,23,18-24,female,28.31,0,yes,1,northwest,18033.9679,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+377,39,35-44,female,24.89,3,yes,1,northeast,21659.9301,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+378,24,25-34,male,40.15,0,yes,1,southeast,38126.2465,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+379,64,65+,female,30.115,3,no,0,northwest,16455.70785,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+380,62,55-64,male,31.46,1,no,0,southeast,27000.98473,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+381,27,25-34,female,17.955,2,yes,1,northeast,15006.57945,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+382,55,55-64,male,30.685,0,yes,1,northeast,42303.69215,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+383,55,55-64,male,33.0,0,no,0,southeast,20781.48892,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+384,35,35-44,female,43.34,2,no,0,southeast,5846.9176,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+385,44,45-54,male,22.135,2,no,0,northeast,8302.53565,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+386,19,18-24,male,34.4,0,no,0,southwest,1261.859,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+387,58,55-64,female,39.05,0,no,0,southeast,11856.4115,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+388,50,45-54,male,25.365,2,no,0,northwest,30284.64294,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+389,26,25-34,female,22.61,0,no,0,northwest,3176.8159,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+390,24,25-34,female,30.21,3,no,0,northwest,4618.0799,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+391,48,45-54,male,35.625,4,no,0,northeast,10736.87075,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+392,19,18-24,female,37.43,0,no,0,northwest,2138.0707,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+393,48,45-54,male,31.445,1,no,0,northeast,8964.06055,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+394,49,45-54,male,31.35,1,no,0,northeast,9290.1395,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+395,46,45-54,female,32.3,2,no,0,northeast,9411.005,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+396,46,45-54,male,19.855,0,no,0,northwest,7526.70645,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+397,43,35-44,female,34.4,3,no,0,southwest,8522.003,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+398,21,18-24,male,31.02,0,no,0,southeast,16586.49771,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+399,64,65+,male,25.6,2,no,0,southwest,14988.432,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+400,18,18-24,female,38.17,0,no,0,southeast,1631.6683,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+401,51,45-54,female,20.6,0,no,0,southwest,9264.797,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+402,47,45-54,male,47.52,1,no,0,southeast,8083.9198,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+403,64,65+,female,32.965,0,no,0,northwest,14692.66935,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+404,49,45-54,male,32.3,3,no,0,northwest,10269.46,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+405,31,25-34,male,20.4,0,no,0,southwest,3260.199,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+406,52,45-54,female,38.38,2,no,0,northeast,11396.9002,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+407,33,25-34,female,24.31,0,no,0,southeast,4185.0979,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+408,47,45-54,female,23.6,1,no,0,southwest,8539.671,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+409,38,35-44,male,21.12,3,no,0,southeast,6652.5288,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+410,32,25-34,male,30.03,1,no,0,southeast,4074.4537,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+411,19,18-24,male,17.48,0,no,0,northwest,1621.3402,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+412,44,45-54,female,20.235,1,yes,1,northeast,19594.80965,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+413,26,25-34,female,17.195,2,yes,1,northeast,14455.64405,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+414,25,25-34,male,23.9,5,no,0,southwest,5080.096,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+415,19,18-24,female,35.15,0,no,0,northwest,2134.9015,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+416,43,35-44,female,35.64,1,no,0,southeast,7345.7266,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+417,52,45-54,male,34.1,0,no,0,southeast,9140.951,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+418,36,35-44,female,22.6,2,yes,1,southwest,18608.262,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+419,64,65+,male,39.16,1,no,0,southeast,14418.2804,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+420,63,55-64,female,26.98,0,yes,1,northwest,28950.4692,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+421,64,65+,male,33.88,0,yes,1,southeast,46889.2612,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+422,61,55-64,male,35.86,0,yes,1,southeast,46599.1084,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+423,40,35-44,male,32.775,1,yes,1,northeast,39125.33225,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+424,25,25-34,male,30.59,0,no,0,northeast,2727.3951,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+425,48,45-54,male,30.2,2,no,0,southwest,8968.33,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+426,45,45-54,male,24.31,5,no,0,southeast,9788.8659,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+427,38,35-44,female,27.265,1,no,0,northeast,6555.07035,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+428,18,18-24,female,29.165,0,no,0,northeast,7323.734819,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+429,21,18-24,female,16.815,1,no,0,northeast,3167.45585,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+430,27,25-34,female,30.4,3,no,0,northwest,18804.7524,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+431,19,18-24,male,33.1,0,no,0,southwest,23082.95533,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+432,29,25-34,female,20.235,2,no,0,northwest,4906.40965,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+433,42,35-44,male,26.9,0,no,0,southwest,5969.723,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+434,60,55-64,female,30.5,0,no,0,southwest,12638.195,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+435,31,25-34,male,28.595,1,no,0,northwest,4243.59005,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+436,60,55-64,male,33.11,3,no,0,southeast,13919.8229,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+437,22,18-24,male,31.73,0,no,0,northeast,2254.7967,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+438,35,35-44,male,28.9,3,no,0,southwest,5926.846,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+439,52,45-54,female,46.75,5,no,0,southeast,12592.5345,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+440,26,25-34,male,29.45,0,no,0,northeast,2897.3235,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+441,31,25-34,female,32.68,1,no,0,northwest,4738.2682,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+442,33,25-34,female,33.5,0,yes,1,southwest,37079.372,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+443,18,18-24,male,43.01,0,no,0,southeast,1149.3959,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+444,59,55-64,female,36.52,1,no,0,southeast,28287.89766,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+445,56,55-64,male,26.695,1,yes,1,northwest,26109.32905,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+446,45,45-54,female,33.1,0,no,0,southwest,7345.084,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+447,60,55-64,male,29.64,0,no,0,northeast,12730.9996,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+448,56,55-64,female,25.65,0,no,0,northwest,11454.0215,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+449,40,35-44,female,29.6,0,no,0,southwest,5910.944,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+450,35,35-44,male,38.6,1,no,0,southwest,4762.329,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+451,39,35-44,male,29.6,4,no,0,southwest,7512.267,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+452,30,25-34,male,24.13,1,no,0,northwest,4032.2407,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+453,24,25-34,male,23.4,0,no,0,southwest,1969.614,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+454,20,18-24,male,29.735,0,no,0,northwest,1769.53165,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+455,32,25-34,male,46.53,2,no,0,southeast,4686.3887,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+456,59,55-64,male,37.4,0,no,0,southwest,21797.0004,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+457,55,55-64,female,30.14,2,no,0,southeast,11881.9696,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+458,57,55-64,female,30.495,0,no,0,northwest,11840.77505,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+459,56,55-64,male,39.6,0,no,0,southwest,10601.412,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+460,40,35-44,female,33.0,3,no,0,southeast,7682.67,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+461,49,45-54,female,36.63,3,no,0,southeast,10381.4787,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+462,42,35-44,male,30.0,0,yes,1,southwest,22144.032,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+463,62,55-64,female,38.095,2,no,0,northeast,15230.32405,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+464,56,55-64,male,25.935,0,no,0,northeast,11165.41765,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+465,19,18-24,male,25.175,0,no,0,northwest,1632.03625,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+466,30,25-34,female,28.38,1,yes,1,southeast,19521.9682,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+467,60,55-64,female,28.7,1,no,0,southwest,13224.693,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+468,56,55-64,female,33.82,2,no,0,northwest,12643.3778,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+469,28,25-34,female,24.32,1,no,0,northeast,23288.9284,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+470,18,18-24,female,24.09,1,no,0,southeast,2201.0971,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+471,27,25-34,male,32.67,0,no,0,southeast,2497.0383,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+472,18,18-24,female,30.115,0,no,0,northeast,2203.47185,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+473,19,18-24,female,29.8,0,no,0,southwest,1744.465,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+474,47,45-54,female,33.345,0,no,0,northeast,20878.78443,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+475,54,55-64,male,25.1,3,yes,1,southwest,25382.297,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+476,61,55-64,male,28.31,1,yes,1,northwest,28868.6639,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+477,24,25-34,male,28.5,0,yes,1,northeast,35147.52848,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+478,25,25-34,male,35.625,0,no,0,northwest,2534.39375,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+479,21,18-24,male,36.85,0,no,0,southeast,1534.3045,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+480,23,18-24,male,32.56,0,no,0,southeast,1824.2854,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+481,63,55-64,male,41.325,3,no,0,northwest,15555.18875,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+482,49,45-54,male,37.51,2,no,0,southeast,9304.7019,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+483,18,18-24,female,31.35,0,no,0,southeast,1622.1885,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+484,51,45-54,female,39.5,1,no,0,southwest,9880.068,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+485,48,45-54,male,34.3,3,no,0,southwest,9563.029,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+486,31,25-34,female,31.065,0,no,0,northeast,4347.02335,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+487,54,55-64,female,21.47,3,no,0,northwest,12475.3513,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+488,19,18-24,male,28.7,0,no,0,southwest,1253.936,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+489,44,45-54,female,38.06,0,yes,1,southeast,48885.13561,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+490,53,45-54,male,31.16,1,no,0,northwest,10461.9794,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+491,19,18-24,female,32.9,0,no,0,southwest,1748.774,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+492,61,55-64,female,25.08,0,no,0,southeast,24513.09126,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+493,18,18-24,female,25.08,0,no,0,northeast,2196.4732,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+494,61,55-64,male,43.4,0,no,0,southwest,12574.049,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+495,21,18-24,male,25.7,4,yes,1,southwest,17942.106,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+496,20,18-24,male,27.93,0,no,0,northeast,1967.0227,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+497,31,25-34,female,23.6,2,no,0,southwest,4931.647,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+498,45,45-54,male,28.7,2,no,0,southwest,8027.968,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+499,44,45-54,female,23.98,2,no,0,southeast,8211.1002,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+500,62,55-64,female,39.2,0,no,0,southwest,13470.86,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+501,29,25-34,male,34.4,0,yes,1,southwest,36197.699,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+502,43,35-44,male,26.03,0,no,0,northeast,6837.3687,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+503,51,45-54,male,23.21,1,yes,1,southeast,22218.1149,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+504,19,18-24,male,30.25,0,yes,1,southeast,32548.3405,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+505,38,35-44,female,28.93,1,no,0,southeast,5974.3847,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+506,37,35-44,male,30.875,3,no,0,northwest,6796.86325,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+507,22,18-24,male,31.35,1,no,0,northwest,2643.2685,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+508,21,18-24,male,23.75,2,no,0,northwest,3077.0955,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+509,24,25-34,female,25.27,0,no,0,northeast,3044.2133,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+510,57,55-64,female,28.7,0,no,0,southwest,11455.28,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+511,56,55-64,male,32.11,1,no,0,northeast,11763.0009,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+512,27,25-34,male,33.66,0,no,0,southeast,2498.4144,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+513,51,45-54,male,22.42,0,no,0,northeast,9361.3268,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+514,19,18-24,male,30.4,0,no,0,southwest,1256.299,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+515,39,35-44,male,28.3,1,yes,1,southwest,21082.16,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+516,58,55-64,male,35.7,0,no,0,southwest,11362.755,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+517,20,18-24,male,35.31,1,no,0,southeast,27724.28875,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+518,45,45-54,male,30.495,2,no,0,northwest,8413.46305,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+519,35,35-44,female,31.0,1,no,0,southwest,5240.765,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+520,31,25-34,male,30.875,0,no,0,northeast,3857.75925,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+521,50,45-54,female,27.36,0,no,0,northeast,25656.57526,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+522,32,25-34,female,44.22,0,no,0,southeast,3994.1778,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+523,51,45-54,female,33.915,0,no,0,northeast,9866.30485,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+524,38,35-44,female,37.73,0,no,0,southeast,5397.6167,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+525,42,35-44,male,26.07,1,yes,1,southeast,38245.59327,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+526,18,18-24,female,33.88,0,no,0,southeast,11482.63485,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+527,19,18-24,female,30.59,2,no,0,northwest,24059.68019,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+528,51,45-54,female,25.8,1,no,0,southwest,9861.025,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+529,46,45-54,male,39.425,1,no,0,northeast,8342.90875,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+530,18,18-24,male,25.46,0,no,0,northeast,1708.0014,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+531,57,55-64,male,42.13,1,yes,1,southeast,48675.5177,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+532,62,55-64,female,31.73,0,no,0,northeast,14043.4767,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+533,59,55-64,male,29.7,2,no,0,southeast,12925.886,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+534,37,35-44,male,36.19,0,no,0,southeast,19214.70553,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+535,64,65+,male,40.48,0,no,0,southeast,13831.1152,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+536,38,35-44,male,28.025,1,no,0,northeast,6067.12675,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+537,33,25-34,female,38.9,3,no,0,southwest,5972.378,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+538,46,45-54,female,30.2,2,no,0,southwest,8825.086,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+539,46,45-54,female,28.05,1,no,0,southeast,8233.0975,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+540,53,45-54,male,31.35,0,no,0,southeast,27346.04207,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+541,34,35-44,female,38.0,3,no,0,southwest,6196.448,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+542,20,18-24,female,31.79,2,no,0,southeast,3056.3881,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+543,63,55-64,female,36.3,0,no,0,southeast,13887.204,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+544,54,55-64,female,47.41,0,yes,1,southeast,63770.42801,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+545,54,55-64,male,30.21,0,no,0,northwest,10231.4999,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+546,49,45-54,male,25.84,2,yes,1,northwest,23807.2406,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+547,28,25-34,male,35.435,0,no,0,northeast,3268.84665,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+548,54,55-64,female,46.7,2,no,0,southwest,11538.421,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+549,25,25-34,female,28.595,0,no,0,northeast,3213.62205,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+550,43,35-44,female,46.2,0,yes,1,southeast,45863.205,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+551,63,55-64,male,30.8,0,no,0,southwest,13390.559,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+552,32,25-34,female,28.93,0,no,0,southeast,3972.9247,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+553,62,55-64,male,21.4,0,no,0,southwest,12957.118,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+554,52,45-54,female,31.73,2,no,0,northwest,11187.6567,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+555,25,25-34,female,41.325,0,no,0,northeast,17878.90068,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+556,28,25-34,male,23.8,2,no,0,southwest,3847.674,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+557,46,45-54,male,33.44,1,no,0,northeast,8334.5896,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+558,34,35-44,male,34.21,0,no,0,southeast,3935.1799,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+559,35,35-44,female,34.105,3,yes,1,northwest,39983.42595,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+560,19,18-24,male,35.53,0,no,0,northwest,1646.4297,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+561,46,45-54,female,19.95,2,no,0,northwest,9193.8385,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+562,54,55-64,female,32.68,0,no,0,northeast,10923.9332,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+563,27,25-34,male,30.5,0,no,0,southwest,2494.022,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+564,50,45-54,male,44.77,1,no,0,southeast,9058.7303,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+565,18,18-24,female,32.12,2,no,0,southeast,2801.2588,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+566,19,18-24,female,30.495,0,no,0,northwest,2128.43105,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+567,38,35-44,female,40.565,1,no,0,northwest,6373.55735,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+568,41,35-44,male,30.59,2,no,0,northwest,7256.7231,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+569,49,45-54,female,31.9,5,no,0,southwest,11552.904,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+570,48,45-54,male,40.565,2,yes,1,northwest,45702.02235,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+571,31,25-34,female,29.1,0,no,0,southwest,3761.292,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+572,18,18-24,female,37.29,1,no,0,southeast,2219.4451,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+573,30,25-34,female,43.12,2,no,0,southeast,4753.6368,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+574,62,55-64,female,36.86,1,no,0,northeast,31620.00106,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+575,57,55-64,female,34.295,2,no,0,northeast,13224.05705,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+576,58,55-64,female,27.17,0,no,0,northwest,12222.8983,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+577,22,18-24,male,26.84,0,no,0,southeast,1664.9996,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+578,31,25-34,female,38.095,1,yes,1,northeast,58571.07448,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+579,52,45-54,male,30.2,1,no,0,southwest,9724.53,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+580,25,25-34,female,23.465,0,no,0,northeast,3206.49135,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+581,59,55-64,male,25.46,1,no,0,northeast,12913.9924,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+582,19,18-24,male,30.59,0,no,0,northwest,1639.5631,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+583,39,35-44,male,45.43,2,no,0,southeast,6356.2707,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+584,32,25-34,female,23.65,1,no,0,southeast,17626.23951,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+585,19,18-24,male,20.7,0,no,0,southwest,1242.816,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+586,33,25-34,female,28.27,1,no,0,southeast,4779.6023,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+587,21,18-24,male,20.235,3,no,0,northeast,3861.20965,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+588,34,35-44,female,30.21,1,yes,1,northwest,43943.8761,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+589,61,55-64,female,35.91,0,no,0,northeast,13635.6379,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+590,38,35-44,female,30.69,1,no,0,southeast,5976.8311,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+591,58,55-64,female,29.0,0,no,0,southwest,11842.442,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+592,47,45-54,male,19.57,1,no,0,northwest,8428.0693,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+593,20,18-24,male,31.13,2,no,0,southeast,2566.4707,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+594,21,18-24,female,21.85,1,yes,1,northeast,15359.1045,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+595,41,35-44,male,40.26,0,no,0,southeast,5709.1644,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+596,46,45-54,female,33.725,1,no,0,northeast,8823.98575,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+597,42,35-44,female,29.48,2,no,0,southeast,7640.3092,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+598,34,35-44,female,33.25,1,no,0,northeast,5594.8455,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+599,43,35-44,male,32.6,2,no,0,southwest,7441.501,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+600,52,45-54,female,37.525,2,no,0,northwest,33471.97189,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+601,18,18-24,female,39.16,0,no,0,southeast,1633.0444,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+602,51,45-54,male,31.635,0,no,0,northwest,9174.13565,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+603,56,55-64,female,25.3,0,no,0,southwest,11070.535,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+604,64,65+,female,39.05,3,no,0,southeast,16085.1275,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+605,19,18-24,female,28.31,0,yes,1,northwest,17468.9839,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+606,51,45-54,female,34.1,0,no,0,southeast,9283.562,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+607,27,25-34,female,25.175,0,no,0,northeast,3558.62025,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+608,59,55-64,female,23.655,0,yes,1,northwest,25678.77845,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+609,28,25-34,male,26.98,2,no,0,northeast,4435.0942,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+610,30,25-34,male,37.8,2,yes,1,southwest,39241.442,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+611,47,45-54,female,29.37,1,no,0,southeast,8547.6913,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+612,38,35-44,female,34.8,2,no,0,southwest,6571.544,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+613,18,18-24,female,33.155,0,no,0,northeast,2207.69745,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+614,34,35-44,female,19.0,3,no,0,northeast,6753.038,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+615,20,18-24,female,33.0,0,no,0,southeast,1880.07,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+616,47,45-54,female,36.63,1,yes,1,southeast,42969.8527,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+617,56,55-64,female,28.595,0,no,0,northeast,11658.11505,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+618,49,45-54,male,25.6,2,yes,1,southwest,23306.547,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+619,19,18-24,female,33.11,0,yes,1,southeast,34439.8559,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+620,55,55-64,female,37.1,0,no,0,southwest,10713.644,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+621,30,25-34,male,31.4,1,no,0,southwest,3659.346,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+622,37,35-44,male,34.1,4,yes,1,southwest,40182.246,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+623,49,45-54,female,21.3,1,no,0,southwest,9182.17,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+624,18,18-24,male,33.535,0,yes,1,northeast,34617.84065,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+625,59,55-64,male,28.785,0,no,0,northwest,12129.61415,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+626,29,25-34,female,26.03,0,no,0,northwest,3736.4647,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+627,36,35-44,male,28.88,3,no,0,northeast,6748.5912,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+628,33,25-34,male,42.46,1,no,0,southeast,11326.71487,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+629,58,55-64,male,38.0,0,no,0,southwest,11365.952,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+630,44,45-54,female,38.95,0,yes,1,northwest,42983.4585,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+631,53,45-54,male,36.1,1,no,0,southwest,10085.846,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+632,24,25-34,male,29.3,0,no,0,southwest,1977.815,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+633,29,25-34,female,35.53,0,no,0,southeast,3366.6697,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+634,40,35-44,male,22.705,2,no,0,northeast,7173.35995,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+635,51,45-54,male,39.7,1,no,0,southwest,9391.346,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+636,64,65+,male,38.19,0,no,0,northeast,14410.9321,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+637,19,18-24,female,24.51,1,no,0,northwest,2709.1119,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+638,35,35-44,female,38.095,2,no,0,northeast,24915.04626,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+639,39,35-44,male,26.41,0,yes,1,northeast,20149.3229,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+640,56,55-64,male,33.66,4,no,0,southeast,12949.1554,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+641,33,25-34,male,42.4,5,no,0,southwest,6666.243,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+642,42,35-44,male,28.31,3,yes,1,northwest,32787.45859,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+643,61,55-64,male,33.915,0,no,0,northeast,13143.86485,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+644,23,18-24,female,34.96,3,no,0,northwest,4466.6214,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+645,43,35-44,male,35.31,2,no,0,southeast,18806.14547,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+646,48,45-54,male,30.78,3,no,0,northeast,10141.1362,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+647,39,35-44,male,26.22,1,no,0,northwest,6123.5688,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+648,40,35-44,female,23.37,3,no,0,northeast,8252.2843,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+649,18,18-24,male,28.5,0,no,0,northeast,1712.227,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+650,58,55-64,female,32.965,0,no,0,northeast,12430.95335,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+651,49,45-54,female,42.68,2,no,0,southeast,9800.8882,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+652,53,45-54,female,39.6,1,no,0,southeast,10579.711,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+653,48,45-54,female,31.13,0,no,0,southeast,8280.6227,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+654,45,45-54,female,36.3,2,no,0,southeast,8527.532,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+655,59,55-64,female,35.2,0,no,0,southeast,12244.531,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+656,52,45-54,female,25.3,2,yes,1,southeast,24667.419,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+657,26,25-34,female,42.4,1,no,0,southwest,3410.324,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+658,27,25-34,male,33.155,2,no,0,northwest,4058.71245,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+659,48,45-54,female,35.91,1,no,0,northeast,26392.26029,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+660,57,55-64,female,28.785,4,no,0,northeast,14394.39815,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+661,37,35-44,male,46.53,3,no,0,southeast,6435.6237,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+662,57,55-64,female,23.98,1,no,0,southeast,22192.43711,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+663,32,25-34,female,31.54,1,no,0,northeast,5148.5526,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+664,18,18-24,male,33.66,0,no,0,southeast,1136.3994,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+665,64,65+,female,22.99,0,yes,1,southeast,27037.9141,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+666,43,35-44,male,38.06,2,yes,1,southeast,42560.4304,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+667,49,45-54,male,28.7,1,no,0,southwest,8703.456,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+668,40,35-44,female,32.775,2,yes,1,northwest,40003.33225,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+669,62,55-64,male,32.015,0,yes,1,northeast,45710.20785,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+670,40,35-44,female,29.81,1,no,0,southeast,6500.2359,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+671,30,25-34,male,31.57,3,no,0,southeast,4837.5823,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+672,29,25-34,female,31.16,0,no,0,northeast,3943.5954,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+673,36,35-44,male,29.7,0,no,0,southeast,4399.731,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+674,41,35-44,female,31.02,0,no,0,southeast,6185.3208,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+675,44,45-54,female,43.89,2,yes,1,southeast,46200.9851,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+676,45,45-54,male,21.375,0,no,0,northwest,7222.78625,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+677,55,55-64,female,40.81,3,no,0,southeast,12485.8009,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+678,60,55-64,male,31.35,3,yes,1,northwest,46130.5265,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+679,56,55-64,male,36.1,3,no,0,southwest,12363.547,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+680,49,45-54,female,23.18,2,no,0,northwest,10156.7832,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+681,21,18-24,female,17.4,1,no,0,southwest,2585.269,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+682,19,18-24,male,20.3,0,no,0,southwest,1242.26,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+683,39,35-44,male,35.3,2,yes,1,southwest,40103.89,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+684,53,45-54,male,24.32,0,no,0,northwest,9863.4718,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+685,33,25-34,female,18.5,1,no,0,southwest,4766.022,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+686,53,45-54,male,26.41,2,no,0,northeast,11244.3769,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+687,42,35-44,male,26.125,2,no,0,northeast,7729.64575,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+688,40,35-44,male,41.69,0,no,0,southeast,5438.7491,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+689,47,45-54,female,24.1,1,no,0,southwest,26236.57997,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+690,27,25-34,male,31.13,1,yes,1,southeast,34806.4677,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+691,21,18-24,male,27.36,0,no,0,northeast,2104.1134,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+692,47,45-54,male,36.2,1,no,0,southwest,8068.185,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+693,20,18-24,male,32.395,1,no,0,northwest,2362.22905,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+694,24,25-34,male,23.655,0,no,0,northwest,2352.96845,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+695,27,25-34,female,34.8,1,no,0,southwest,3577.999,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+696,26,25-34,female,40.185,0,no,0,northwest,3201.24515,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+697,53,45-54,female,32.3,2,no,0,northeast,29186.48236,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+698,41,35-44,male,35.75,1,yes,1,southeast,40273.6455,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+699,56,55-64,male,33.725,0,no,0,northwest,10976.24575,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+700,23,18-24,female,39.27,2,no,0,southeast,3500.6123,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+701,21,18-24,female,34.87,0,no,0,southeast,2020.5523,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+702,50,45-54,female,44.745,0,no,0,northeast,9541.69555,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+703,53,45-54,male,41.47,0,no,0,southeast,9504.3103,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+704,34,35-44,female,26.41,1,no,0,northwest,5385.3379,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+705,47,45-54,female,29.545,1,no,0,northwest,8930.93455,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+706,33,25-34,female,32.9,2,no,0,southwest,5375.038,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+707,51,45-54,female,38.06,0,yes,1,southeast,44400.4064,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+708,49,45-54,male,28.69,3,no,0,northwest,10264.4421,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+709,31,25-34,female,30.495,3,no,0,northeast,6113.23105,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+710,36,35-44,female,27.74,0,no,0,northeast,5469.0066,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+711,18,18-24,male,35.2,1,no,0,southeast,1727.54,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+712,50,45-54,female,23.54,2,no,0,southeast,10107.2206,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+713,43,35-44,female,30.685,2,no,0,northwest,8310.83915,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+714,20,18-24,male,40.47,0,no,0,northeast,1984.4533,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+715,24,25-34,female,22.6,0,no,0,southwest,2457.502,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+716,60,55-64,male,28.9,0,no,0,southwest,12146.971,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+717,49,45-54,female,22.61,1,no,0,northwest,9566.9909,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+718,60,55-64,male,24.32,1,no,0,northwest,13112.6048,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+719,51,45-54,female,36.67,2,no,0,northwest,10848.1343,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+720,58,55-64,female,33.44,0,no,0,northwest,12231.6136,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+721,51,45-54,female,40.66,0,no,0,northeast,9875.6804,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+722,53,45-54,male,36.6,3,no,0,southwest,11264.541,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+723,62,55-64,male,37.4,0,no,0,southwest,12979.358,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+724,19,18-24,male,35.4,0,no,0,southwest,1263.249,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+725,50,45-54,female,27.075,1,no,0,northeast,10106.13425,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+726,30,25-34,female,39.05,3,yes,1,southeast,40932.4295,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+727,41,35-44,male,28.405,1,no,0,northwest,6664.68595,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+728,29,25-34,female,21.755,1,yes,1,northeast,16657.71745,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+729,18,18-24,female,40.28,0,no,0,northeast,2217.6012,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+730,41,35-44,female,36.08,1,no,0,southeast,6781.3542,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+731,35,35-44,male,24.42,3,yes,1,southeast,19361.9988,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+732,53,45-54,male,21.4,1,no,0,southwest,10065.413,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+733,24,25-34,female,30.1,3,no,0,southwest,4234.927,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+734,48,45-54,female,27.265,1,no,0,northeast,9447.25035,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+735,59,55-64,female,32.1,3,no,0,southwest,14007.222,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+736,49,45-54,female,34.77,1,no,0,northwest,9583.8933,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+737,37,35-44,female,38.39,0,yes,1,southeast,40419.0191,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+738,26,25-34,male,23.7,2,no,0,southwest,3484.331,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+739,23,18-24,male,31.73,3,yes,1,northeast,36189.1017,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+740,29,25-34,male,35.5,2,yes,1,southwest,44585.45587,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+741,45,45-54,male,24.035,2,no,0,northeast,8604.48365,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+742,27,25-34,male,29.15,0,yes,1,southeast,18246.4955,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+743,53,45-54,male,34.105,0,yes,1,northeast,43254.41795,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+744,31,25-34,female,26.62,0,no,0,southeast,3757.8448,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+745,50,45-54,male,26.41,0,no,0,northwest,8827.2099,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+746,50,45-54,female,30.115,1,no,0,northwest,9910.35985,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+747,34,35-44,male,27.0,2,no,0,southwest,11737.84884,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+748,19,18-24,male,21.755,0,no,0,northwest,1627.28245,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+749,47,45-54,female,36.0,1,no,0,southwest,8556.907,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+750,28,25-34,male,30.875,0,no,0,northwest,3062.50825,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+751,37,35-44,female,26.4,0,yes,1,southeast,19539.243,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+752,21,18-24,male,28.975,0,no,0,northwest,1906.35825,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+753,64,65+,male,37.905,0,no,0,northwest,14210.53595,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+754,58,55-64,female,22.77,0,no,0,southeast,11833.7823,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+755,24,25-34,male,33.63,4,no,0,northeast,17128.42608,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+756,31,25-34,male,27.645,2,no,0,northeast,5031.26955,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+757,39,35-44,female,22.8,3,no,0,northeast,7985.815,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+758,47,45-54,female,27.83,0,yes,1,southeast,23065.4207,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+759,30,25-34,male,37.43,3,no,0,northeast,5428.7277,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+760,18,18-24,male,38.17,0,yes,1,southeast,36307.7983,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+761,22,18-24,female,34.58,2,no,0,northeast,3925.7582,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+762,23,18-24,male,35.2,1,no,0,southwest,2416.955,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+763,33,25-34,male,27.1,1,yes,1,southwest,19040.876,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+764,27,25-34,male,26.03,0,no,0,northeast,3070.8087,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+765,45,45-54,female,25.175,2,no,0,northeast,9095.06825,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+766,57,55-64,female,31.825,0,no,0,northwest,11842.62375,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+767,47,45-54,male,32.3,1,no,0,southwest,8062.764,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+768,42,35-44,female,29.0,1,no,0,southwest,7050.642,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+769,64,65+,female,39.7,0,no,0,southwest,14319.031,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+770,38,35-44,female,19.475,2,no,0,northwest,6933.24225,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+771,61,55-64,male,36.1,3,no,0,southwest,27941.28758,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+772,53,45-54,female,26.7,2,no,0,southwest,11150.78,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+773,44,45-54,female,36.48,0,no,0,northeast,12797.20962,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+774,19,18-24,female,28.88,0,yes,1,northwest,17748.5062,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+775,41,35-44,male,34.2,2,no,0,northwest,7261.741,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+776,51,45-54,male,33.33,3,no,0,southeast,10560.4917,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+777,40,35-44,male,32.3,2,no,0,northwest,6986.697,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+778,45,45-54,male,39.805,0,no,0,northeast,7448.40395,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+779,35,35-44,male,34.32,3,no,0,southeast,5934.3798,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+780,53,45-54,male,28.88,0,no,0,northwest,9869.8102,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+781,30,25-34,male,24.4,3,yes,1,southwest,18259.216,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+782,18,18-24,male,41.14,0,no,0,southeast,1146.7966,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+783,51,45-54,male,35.97,1,no,0,southeast,9386.1613,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+784,50,45-54,female,27.6,1,yes,1,southwest,24520.264,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+785,31,25-34,female,29.26,1,no,0,southeast,4350.5144,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+786,35,35-44,female,27.7,3,no,0,southwest,6414.178,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+787,60,55-64,male,36.955,0,no,0,northeast,12741.16745,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+788,21,18-24,male,36.86,0,no,0,northwest,1917.3184,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+789,29,25-34,male,22.515,3,no,0,northeast,5209.57885,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+790,62,55-64,female,29.92,0,no,0,southeast,13457.9608,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+791,39,35-44,female,41.8,0,no,0,southeast,5662.225,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+792,19,18-24,male,27.6,0,no,0,southwest,1252.407,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+793,22,18-24,female,23.18,0,no,0,northeast,2731.9122,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+794,53,45-54,male,20.9,0,yes,1,southeast,21195.818,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+795,39,35-44,female,31.92,2,no,0,northwest,7209.4918,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+796,27,25-34,male,28.5,0,yes,1,northwest,18310.742,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+797,30,25-34,male,44.22,2,no,0,southeast,4266.1658,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+798,30,25-34,female,22.895,1,no,0,northeast,4719.52405,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+799,58,55-64,female,33.1,0,no,0,southwest,11848.141,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+800,33,25-34,male,24.795,0,yes,1,northeast,17904.52705,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+801,42,35-44,female,26.18,1,no,0,southeast,7046.7222,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+802,64,65+,female,35.97,0,no,0,southeast,14313.8463,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+803,21,18-24,male,22.3,1,no,0,southwest,2103.08,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+804,18,18-24,female,42.24,0,yes,1,southeast,38792.6856,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+805,23,18-24,male,26.51,0,no,0,southeast,1815.8759,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+806,45,45-54,female,35.815,0,no,0,northwest,7731.85785,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+807,40,35-44,female,41.42,1,no,0,northwest,28476.73499,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+808,19,18-24,female,36.575,0,no,0,northwest,2136.88225,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+809,18,18-24,male,30.14,0,no,0,southeast,1131.5066,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+810,25,25-34,male,25.84,1,no,0,northeast,3309.7926,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+811,46,45-54,female,30.8,3,no,0,southwest,9414.92,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+812,33,25-34,female,42.94,3,no,0,northwest,6360.9936,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+813,54,55-64,male,21.01,2,no,0,southeast,11013.7119,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+814,28,25-34,male,22.515,2,no,0,northeast,4428.88785,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+815,36,35-44,male,34.43,2,no,0,southeast,5584.3057,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+816,20,18-24,female,31.46,0,no,0,southeast,1877.9294,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+817,24,25-34,female,24.225,0,no,0,northwest,2842.76075,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+818,23,18-24,male,37.1,3,no,0,southwest,3597.596,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+819,47,45-54,female,26.125,1,yes,1,northeast,23401.30575,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+820,33,25-34,female,35.53,0,yes,1,northwest,55135.40209,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+821,45,45-54,male,33.7,1,no,0,southwest,7445.918,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+822,26,25-34,male,17.67,0,no,0,northwest,2680.9493,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+823,18,18-24,female,31.13,0,no,0,southeast,1621.8827,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+824,44,45-54,female,29.81,2,no,0,southeast,8219.2039,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+825,60,55-64,male,24.32,0,no,0,northwest,12523.6048,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+826,64,65+,female,31.825,2,no,0,northeast,16069.08475,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+827,56,55-64,male,31.79,2,yes,1,southeast,43813.8661,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+828,36,35-44,male,28.025,1,yes,1,northeast,20773.62775,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+829,41,35-44,male,30.78,3,yes,1,northeast,39597.4072,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+830,39,35-44,male,21.85,1,no,0,northwest,6117.4945,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+831,63,55-64,male,33.1,0,no,0,southwest,13393.756,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+832,36,35-44,female,25.84,0,no,0,northwest,5266.3656,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+833,28,25-34,female,23.845,2,no,0,northwest,4719.73655,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+834,58,55-64,male,34.39,0,no,0,northwest,11743.9341,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+835,36,35-44,male,33.82,1,no,0,northwest,5377.4578,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+836,42,35-44,male,35.97,2,no,0,southeast,7160.3303,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+837,36,35-44,male,31.5,0,no,0,southwest,4402.233,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+838,56,55-64,female,28.31,0,no,0,northeast,11657.7189,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+839,35,35-44,female,23.465,2,no,0,northeast,6402.29135,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+840,59,55-64,female,31.35,0,no,0,northwest,12622.1795,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+841,21,18-24,male,31.1,0,no,0,southwest,1526.312,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+842,59,55-64,male,24.7,0,no,0,northeast,12323.936,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+843,23,18-24,female,32.78,2,yes,1,southeast,36021.0112,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+844,57,55-64,female,29.81,0,yes,1,southeast,27533.9129,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+845,53,45-54,male,30.495,0,no,0,northeast,10072.05505,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+846,60,55-64,female,32.45,0,yes,1,southeast,45008.9555,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+847,51,45-54,female,34.2,1,no,0,southwest,9872.701,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+848,23,18-24,male,50.38,1,no,0,southeast,2438.0552,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+849,27,25-34,female,24.1,0,no,0,southwest,2974.126,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+850,55,55-64,male,32.775,0,no,0,northwest,10601.63225,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+851,37,35-44,female,30.78,0,yes,1,northeast,37270.1512,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+852,61,55-64,male,32.3,2,no,0,northwest,14119.62,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+853,46,45-54,female,35.53,0,yes,1,northeast,42111.6647,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+854,53,45-54,female,23.75,2,no,0,northeast,11729.6795,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+855,49,45-54,female,23.845,3,yes,1,northeast,24106.91255,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+856,20,18-24,female,29.6,0,no,0,southwest,1875.344,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+857,48,45-54,female,33.11,0,yes,1,southeast,40974.1649,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+858,25,25-34,male,24.13,0,yes,1,northwest,15817.9857,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+859,25,25-34,female,32.23,1,no,0,southeast,18218.16139,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+860,57,55-64,male,28.1,0,no,0,southwest,10965.446,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+861,37,35-44,female,47.6,2,yes,1,southwest,46113.511,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+862,38,35-44,female,28.0,3,no,0,southwest,7151.092,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+863,55,55-64,female,33.535,2,no,0,northwest,12269.68865,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+864,36,35-44,female,19.855,0,no,0,northeast,5458.04645,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+865,51,45-54,male,25.4,0,no,0,southwest,8782.469,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+866,40,35-44,male,29.9,2,no,0,southwest,6600.361,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+867,18,18-24,male,37.29,0,no,0,southeast,1141.4451,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+868,57,55-64,male,43.7,1,no,0,southwest,11576.13,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+869,61,55-64,male,23.655,0,no,0,northeast,13129.60345,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+870,25,25-34,female,24.3,3,no,0,southwest,4391.652,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+871,50,45-54,male,36.2,0,no,0,southwest,8457.818,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+872,26,25-34,female,29.48,1,no,0,southeast,3392.3652,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+873,42,35-44,male,24.86,0,no,0,southeast,5966.8874,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+874,43,35-44,male,30.1,1,no,0,southwest,6849.026,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+875,44,45-54,male,21.85,3,no,0,northeast,8891.1395,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+876,23,18-24,female,28.12,0,no,0,northwest,2690.1138,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+877,49,45-54,female,27.1,1,no,0,southwest,26140.3603,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+878,33,25-34,male,33.44,5,no,0,southeast,6653.7886,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+879,41,35-44,male,28.8,1,no,0,southwest,6282.235,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+880,37,35-44,female,29.5,2,no,0,southwest,6311.952,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+881,22,18-24,male,34.8,3,no,0,southwest,3443.064,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+882,23,18-24,male,27.36,1,no,0,northwest,2789.0574,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+883,21,18-24,female,22.135,0,no,0,northeast,2585.85065,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+884,51,45-54,female,37.05,3,yes,1,northeast,46255.1125,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+885,25,25-34,male,26.695,4,no,0,northwest,4877.98105,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+886,32,25-34,male,28.93,1,yes,1,southeast,19719.6947,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+887,57,55-64,male,28.975,0,yes,1,northeast,27218.43725,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+888,36,35-44,female,30.02,0,no,0,northwest,5272.1758,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+889,22,18-24,male,39.5,0,no,0,southwest,1682.597,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+890,57,55-64,male,33.63,1,no,0,northwest,11945.1327,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+891,64,65+,female,26.885,0,yes,1,northwest,29330.98315,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+892,36,35-44,female,29.04,4,no,0,southeast,7243.8136,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+893,54,55-64,male,24.035,0,no,0,northeast,10422.91665,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+894,47,45-54,male,38.94,2,yes,1,southeast,44202.6536,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+895,62,55-64,male,32.11,0,no,0,northeast,13555.0049,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+896,61,55-64,female,44.0,0,no,0,southwest,13063.883,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+897,43,35-44,female,20.045,2,yes,1,northeast,19798.05455,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+898,19,18-24,male,25.555,1,no,0,northwest,2221.56445,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+899,18,18-24,female,40.26,0,no,0,southeast,1634.5734,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+900,19,18-24,female,22.515,0,no,0,northwest,2117.33885,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+901,49,45-54,male,22.515,0,no,0,northeast,8688.85885,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+902,60,55-64,male,40.92,0,yes,1,southeast,48673.5588,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+903,26,25-34,male,27.265,3,no,0,northeast,4661.28635,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+904,49,45-54,male,36.85,0,no,0,southeast,8125.7845,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+905,60,55-64,female,35.1,0,no,0,southwest,12644.589,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+906,26,25-34,female,29.355,2,no,0,northeast,4564.19145,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+907,27,25-34,male,32.585,3,no,0,northeast,4846.92015,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+908,44,45-54,female,32.34,1,no,0,southeast,7633.7206,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+909,63,55-64,male,39.8,3,no,0,southwest,15170.069,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+910,32,25-34,female,24.6,0,yes,1,southwest,17496.306,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+911,22,18-24,male,28.31,1,no,0,northwest,2639.0429,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+912,18,18-24,male,31.73,0,yes,1,northeast,33732.6867,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+913,59,55-64,female,26.695,3,no,0,northwest,14382.70905,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+914,44,45-54,female,27.5,1,no,0,southwest,7626.993,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+915,33,25-34,male,24.605,2,no,0,northwest,5257.50795,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+916,24,25-34,female,33.99,0,no,0,southeast,2473.3341,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+917,43,35-44,female,26.885,0,yes,1,northwest,21774.32215,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+918,45,45-54,male,22.895,0,yes,1,northeast,35069.37452,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+919,61,55-64,female,28.2,0,no,0,southwest,13041.921,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+920,35,35-44,female,34.21,1,no,0,southeast,5245.2269,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+921,62,55-64,female,25.0,0,no,0,southwest,13451.122,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+922,62,55-64,female,33.2,0,no,0,southwest,13462.52,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+923,38,35-44,male,31.0,1,no,0,southwest,5488.262,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+924,34,35-44,male,35.815,0,no,0,northwest,4320.41085,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+925,43,35-44,male,23.2,0,no,0,southwest,6250.435,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+926,50,45-54,male,32.11,2,no,0,northeast,25333.33284,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+927,19,18-24,female,23.4,2,no,0,southwest,2913.569,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+928,57,55-64,female,20.1,1,no,0,southwest,12032.326,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+929,62,55-64,female,39.16,0,no,0,southeast,13470.8044,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+930,41,35-44,male,34.21,1,no,0,southeast,6289.7549,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+931,26,25-34,male,46.53,1,no,0,southeast,2927.0647,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+932,39,35-44,female,32.5,1,no,0,southwest,6238.298,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+933,46,45-54,male,25.8,5,no,0,southwest,10096.97,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+934,45,45-54,female,35.3,0,no,0,southwest,7348.142,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+935,32,25-34,male,37.18,2,no,0,southeast,4673.3922,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+936,59,55-64,female,27.5,0,no,0,southwest,12233.828,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+937,44,45-54,male,29.735,2,no,0,northeast,32108.66282,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+938,39,35-44,female,24.225,5,no,0,northwest,8965.79575,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+939,18,18-24,male,26.18,2,no,0,southeast,2304.0022,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+940,53,45-54,male,29.48,0,no,0,southeast,9487.6442,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+941,18,18-24,male,23.21,0,no,0,southeast,1121.8739,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+942,50,45-54,female,46.09,1,no,0,southeast,9549.5651,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+943,18,18-24,female,40.185,0,no,0,northeast,2217.46915,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+944,19,18-24,male,22.61,0,no,0,northwest,1628.4709,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+945,62,55-64,male,39.93,0,no,0,southeast,12982.8747,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+946,56,55-64,female,35.8,1,no,0,southwest,11674.13,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+947,42,35-44,male,35.8,2,no,0,southwest,7160.094,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+948,37,35-44,male,34.2,1,yes,1,northeast,39047.285,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+949,42,35-44,male,31.255,0,no,0,northwest,6358.77645,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+950,25,25-34,male,29.7,3,yes,1,southwest,19933.458,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+951,57,55-64,male,18.335,0,no,0,northeast,11534.87265,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+952,51,45-54,male,42.9,2,yes,1,southeast,47462.894,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+953,30,25-34,female,28.405,1,no,0,northwest,4527.18295,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+954,44,45-54,male,30.2,2,yes,1,southwest,38998.546,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+955,34,35-44,male,27.835,1,yes,1,northwest,20009.63365,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+956,31,25-34,male,39.49,1,no,0,southeast,3875.7341,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+957,54,55-64,male,30.8,1,yes,1,southeast,41999.52,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+958,24,25-34,male,26.79,1,no,0,northwest,12609.88702,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+959,43,35-44,male,34.96,1,yes,1,northeast,41034.2214,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+960,48,45-54,male,36.67,1,no,0,northwest,28468.91901,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+961,19,18-24,female,39.615,1,no,0,northwest,2730.10785,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+962,29,25-34,female,25.9,0,no,0,southwest,3353.284,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+963,63,55-64,female,35.2,1,no,0,southeast,14474.675,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+964,46,45-54,male,24.795,3,no,0,northeast,9500.57305,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+965,52,45-54,male,36.765,2,no,0,northwest,26467.09737,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+966,35,35-44,male,27.1,1,no,0,southwest,4746.344,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+967,51,45-54,male,24.795,2,yes,1,northwest,23967.38305,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+968,44,45-54,male,25.365,1,no,0,northwest,7518.02535,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+969,21,18-24,male,25.745,2,no,0,northeast,3279.86855,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+970,39,35-44,female,34.32,5,no,0,southeast,8596.8278,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+971,50,45-54,female,28.16,3,no,0,southeast,10702.6424,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+972,34,35-44,female,23.56,0,no,0,northeast,4992.3764,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+973,22,18-24,female,20.235,0,no,0,northwest,2527.81865,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+974,19,18-24,female,40.5,0,no,0,southwest,1759.338,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+975,26,25-34,male,35.42,0,no,0,southeast,2322.6218,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+976,29,25-34,male,22.895,0,yes,1,northeast,16138.76205,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+977,48,45-54,male,40.15,0,no,0,southeast,7804.1605,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+978,26,25-34,male,29.15,1,no,0,southeast,2902.9065,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+979,45,45-54,female,39.995,3,no,0,northeast,9704.66805,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+980,36,35-44,female,29.92,0,no,0,southeast,4889.0368,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+981,54,55-64,male,25.46,1,no,0,northeast,25517.11363,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+982,34,35-44,male,21.375,0,no,0,northeast,4500.33925,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+983,31,25-34,male,25.9,3,yes,1,southwest,19199.944,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+984,27,25-34,female,30.59,1,no,0,northeast,16796.41194,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+985,20,18-24,male,30.115,5,no,0,northeast,4915.05985,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+986,44,45-54,female,25.8,1,no,0,southwest,7624.63,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+987,43,35-44,male,30.115,3,no,0,northwest,8410.04685,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+988,45,45-54,female,27.645,1,no,0,northwest,28340.18885,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+989,34,35-44,male,34.675,0,no,0,northeast,4518.82625,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+990,24,25-34,female,20.52,0,yes,1,northeast,14571.8908,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+991,26,25-34,female,19.8,1,no,0,southwest,3378.91,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+992,38,35-44,female,27.835,2,no,0,northeast,7144.86265,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+993,50,45-54,female,31.6,2,no,0,southwest,10118.424,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+994,38,35-44,male,28.27,1,no,0,southeast,5484.4673,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+995,27,25-34,female,20.045,3,yes,1,northwest,16420.49455,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+996,39,35-44,female,23.275,3,no,0,northeast,7986.47525,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+997,39,35-44,female,34.1,3,no,0,southwest,7418.522,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+998,63,55-64,female,36.85,0,no,0,southeast,13887.9685,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+999,33,25-34,female,36.29,3,no,0,northeast,6551.7501,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1000,36,35-44,female,26.885,0,no,0,northwest,5267.81815,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1001,30,25-34,male,22.99,2,yes,1,northwest,17361.7661,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1002,24,25-34,male,32.7,0,yes,1,southwest,34472.841,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+1003,24,25-34,male,25.8,0,no,0,southwest,1972.95,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1004,48,45-54,male,29.6,0,no,0,southwest,21232.18226,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1005,47,45-54,male,19.19,1,no,0,northeast,8627.5411,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1006,29,25-34,male,31.73,2,no,0,northwest,4433.3877,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1007,28,25-34,male,29.26,2,no,0,northeast,4438.2634,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1008,47,45-54,male,28.215,3,yes,1,northwest,24915.22085,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1009,25,25-34,male,24.985,2,no,0,northeast,23241.47453,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1010,51,45-54,male,27.74,1,no,0,northeast,9957.7216,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1011,48,45-54,female,22.8,0,no,0,southwest,8269.044,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1012,43,35-44,male,20.13,2,yes,1,southeast,18767.7377,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1013,61,55-64,female,33.33,4,no,0,southeast,36580.28216,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1014,48,45-54,male,32.3,1,no,0,northwest,8765.249,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1015,38,35-44,female,27.6,0,no,0,southwest,5383.536,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1016,59,55-64,male,25.46,0,no,0,northwest,12124.9924,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1017,19,18-24,female,24.605,1,no,0,northwest,2709.24395,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1018,26,25-34,female,34.2,2,no,0,southwest,3987.926,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1019,54,55-64,female,35.815,3,no,0,northwest,12495.29085,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1020,21,18-24,female,32.68,2,no,0,northwest,26018.95052,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1021,51,45-54,male,37.0,0,no,0,southwest,8798.593,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1022,22,18-24,female,31.02,3,yes,1,southeast,35595.5898,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+1023,47,45-54,male,36.08,1,yes,1,southeast,42211.1382,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1024,18,18-24,male,23.32,1,no,0,southeast,1711.0268,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1025,47,45-54,female,45.32,1,no,0,southeast,8569.8618,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1026,21,18-24,female,34.6,0,no,0,southwest,2020.177,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1027,19,18-24,male,26.03,1,yes,1,northwest,16450.8947,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1028,23,18-24,male,18.715,0,no,0,northwest,21595.38229,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1029,54,55-64,male,31.6,0,no,0,southwest,9850.432,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1030,37,35-44,female,17.29,2,no,0,northeast,6877.9801,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1031,46,45-54,female,23.655,1,yes,1,northwest,21677.28345,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1032,55,55-64,female,35.2,0,yes,1,southeast,44423.803,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1033,30,25-34,female,27.93,0,no,0,northeast,4137.5227,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1034,18,18-24,male,21.565,0,yes,1,northeast,13747.87235,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1035,61,55-64,male,38.38,0,no,0,northwest,12950.0712,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1036,54,55-64,female,23.0,3,no,0,southwest,12094.478,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1037,22,18-24,male,37.07,2,yes,1,southeast,37484.4493,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+1038,45,45-54,female,30.495,1,yes,1,northwest,39725.51805,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1039,22,18-24,male,28.88,0,no,0,northeast,2250.8352,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1040,19,18-24,male,27.265,2,no,0,northwest,22493.65964,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1041,35,35-44,female,28.025,0,yes,1,northwest,20234.85475,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1042,18,18-24,male,23.085,0,no,0,northeast,1704.70015,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1043,20,18-24,male,30.685,0,yes,1,northeast,33475.81715,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+1044,28,25-34,female,25.8,0,no,0,southwest,3161.454,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1045,55,55-64,male,35.245,1,no,0,northeast,11394.06555,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1046,43,35-44,female,24.7,2,yes,1,northwest,21880.82,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1047,43,35-44,female,25.08,0,no,0,northeast,7325.0482,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1048,22,18-24,male,52.58,1,yes,1,southeast,44501.3982,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+1049,25,25-34,female,22.515,1,no,0,northwest,3594.17085,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1050,49,45-54,male,30.9,0,yes,1,southwest,39727.614,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1051,44,45-54,female,36.955,1,no,0,northwest,8023.13545,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1052,64,65+,male,26.41,0,no,0,northeast,14394.5579,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1053,49,45-54,male,29.83,1,no,0,northeast,9288.0267,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1054,47,45-54,male,29.8,3,yes,1,southwest,25309.489,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1055,27,25-34,female,21.47,0,no,0,northwest,3353.4703,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1056,55,55-64,male,27.645,0,no,0,northwest,10594.50155,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1057,48,45-54,female,28.9,0,no,0,southwest,8277.523,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1058,45,45-54,female,31.79,0,no,0,southeast,17929.30337,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1059,24,25-34,female,39.49,0,no,0,southeast,2480.9791,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1060,32,25-34,male,33.82,1,no,0,northwest,4462.7218,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1061,24,25-34,male,32.01,0,no,0,southeast,1981.5819,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1062,57,55-64,male,27.94,1,no,0,southeast,11554.2236,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1063,59,55-64,male,41.14,1,yes,1,southeast,48970.2476,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1064,36,35-44,male,28.595,3,no,0,northwest,6548.19505,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1065,29,25-34,female,25.6,4,no,0,southwest,5708.867,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1066,42,35-44,female,25.3,1,no,0,southwest,7045.499,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1067,48,45-54,male,37.29,2,no,0,southeast,8978.1851,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1068,39,35-44,male,42.655,0,no,0,northeast,5757.41345,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1069,63,55-64,male,21.66,1,no,0,northwest,14349.8544,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1070,54,55-64,female,31.9,1,no,0,southeast,10928.849,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1071,37,35-44,male,37.07,1,yes,1,southeast,39871.7043,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1072,63,55-64,male,31.445,0,no,0,northeast,13974.45555,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1073,21,18-24,male,31.255,0,no,0,northwest,1909.52745,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1074,54,55-64,female,28.88,2,no,0,northeast,12096.6512,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1075,60,55-64,female,18.335,0,no,0,northeast,13204.28565,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1076,32,25-34,female,29.59,1,no,0,southeast,4562.8421,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1077,47,45-54,female,32.0,1,no,0,southwest,8551.347,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1078,21,18-24,male,26.03,0,no,0,northeast,2102.2647,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1079,28,25-34,male,31.68,0,yes,1,southeast,34672.1472,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+1080,63,55-64,male,33.66,3,no,0,southeast,15161.5344,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1081,18,18-24,male,21.78,2,no,0,southeast,11884.04858,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1082,32,25-34,male,27.835,1,no,0,northwest,4454.40265,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1083,38,35-44,male,19.95,1,no,0,northwest,5855.9025,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1084,32,25-34,male,31.5,1,no,0,southwest,4076.497,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1085,62,55-64,female,30.495,2,no,0,northwest,15019.76005,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1086,39,35-44,female,18.3,5,yes,1,southwest,19023.26,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1087,55,55-64,male,28.975,0,no,0,northeast,10796.35025,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1088,57,55-64,male,31.54,0,no,0,northwest,11353.2276,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1089,52,45-54,male,47.74,1,no,0,southeast,9748.9106,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1090,56,55-64,male,22.1,0,no,0,southwest,10577.087,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1091,47,45-54,male,36.19,0,yes,1,southeast,41676.0811,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1092,55,55-64,female,29.83,0,no,0,northeast,11286.5387,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1093,23,18-24,male,32.7,3,no,0,southwest,3591.48,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1094,22,18-24,female,30.4,0,yes,1,northwest,33907.548,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+1095,50,45-54,female,33.7,4,no,0,southwest,11299.343,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1096,18,18-24,female,31.35,4,no,0,northeast,4561.1885,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1097,51,45-54,female,34.96,2,yes,1,northeast,44641.1974,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1098,22,18-24,male,33.77,0,no,0,southeast,1674.6323,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1099,52,45-54,female,30.875,0,no,0,northeast,23045.56616,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1100,25,25-34,female,33.99,1,no,0,southeast,3227.1211,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1101,33,25-34,female,19.095,2,yes,1,northeast,16776.30405,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1102,53,45-54,male,28.6,3,no,0,southwest,11253.421,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1103,29,25-34,male,38.94,1,no,0,southeast,3471.4096,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1104,58,55-64,male,36.08,0,no,0,southeast,11363.2832,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1105,37,35-44,male,29.8,0,no,0,southwest,20420.60465,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1106,54,55-64,female,31.24,0,no,0,southeast,10338.9316,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1107,49,45-54,female,29.925,0,no,0,northwest,8988.15875,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1108,50,45-54,female,26.22,2,no,0,northwest,10493.9458,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1109,26,25-34,male,30.0,1,no,0,southwest,2904.088,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1110,45,45-54,male,20.35,3,no,0,southeast,8605.3615,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1111,54,55-64,female,32.3,1,no,0,northeast,11512.405,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1112,38,35-44,male,38.39,3,yes,1,southeast,41949.2441,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1113,48,45-54,female,25.85,3,yes,1,southeast,24180.9335,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1114,28,25-34,female,26.315,3,no,0,northwest,5312.16985,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1115,23,18-24,male,24.51,0,no,0,northeast,2396.0959,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1116,55,55-64,male,32.67,1,no,0,southeast,10807.4863,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1117,41,35-44,male,29.64,5,no,0,northeast,9222.4026,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1118,25,25-34,male,33.33,2,yes,1,southeast,36124.5737,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+1119,33,25-34,male,35.75,1,yes,1,southeast,38282.7495,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1120,30,25-34,female,19.95,3,no,0,northwest,5693.4305,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1121,23,18-24,female,31.4,0,yes,1,southwest,34166.273,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+1122,46,45-54,male,38.17,2,no,0,southeast,8347.1643,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1123,53,45-54,female,36.86,3,yes,1,northwest,46661.4424,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1124,27,25-34,female,32.395,1,no,0,northeast,18903.49141,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1125,23,18-24,female,42.75,1,yes,1,northeast,40904.1995,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+1126,63,55-64,female,25.08,0,no,0,northwest,14254.6082,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1127,55,55-64,male,29.9,0,no,0,southwest,10214.636,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1128,35,35-44,female,35.86,2,no,0,southeast,5836.5204,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1129,34,35-44,male,32.8,1,no,0,southwest,14358.36437,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1130,19,18-24,female,18.6,0,no,0,southwest,1728.897,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1131,39,35-44,female,23.87,5,no,0,southeast,8582.3023,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1132,27,25-34,male,45.9,2,no,0,southwest,3693.428,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1133,57,55-64,male,40.28,0,no,0,northeast,20709.02034,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1134,52,45-54,female,18.335,0,no,0,northwest,9991.03765,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1135,28,25-34,male,33.82,0,no,0,northwest,19673.33573,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1136,50,45-54,female,28.12,3,no,0,northwest,11085.5868,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1137,44,45-54,female,25.0,1,no,0,southwest,7623.518,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1138,26,25-34,female,22.23,0,no,0,northwest,3176.2877,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1139,33,25-34,male,30.25,0,no,0,southeast,3704.3545,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1140,19,18-24,female,32.49,0,yes,1,northwest,36898.73308,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+1141,50,45-54,male,37.07,1,no,0,southeast,9048.0273,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1142,41,35-44,female,32.6,3,no,0,southwest,7954.517,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1143,52,45-54,female,24.86,0,no,0,southeast,27117.99378,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1144,39,35-44,male,32.34,2,no,0,southeast,6338.0756,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1145,50,45-54,male,32.3,2,no,0,southwest,9630.397,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1146,52,45-54,male,32.775,3,no,0,northwest,11289.10925,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1147,60,55-64,male,32.8,0,yes,1,southwest,52590.82939,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1148,20,18-24,female,31.92,0,no,0,northwest,2261.5688,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1149,55,55-64,male,21.5,1,no,0,southwest,10791.96,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1150,42,35-44,male,34.1,0,no,0,southwest,5979.731,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1151,18,18-24,female,30.305,0,no,0,northeast,2203.73595,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1152,58,55-64,female,36.48,0,no,0,northwest,12235.8392,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1153,43,35-44,female,32.56,3,yes,1,southeast,40941.2854,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1154,35,35-44,female,35.815,1,no,0,northwest,5630.45785,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1155,48,45-54,female,27.93,4,no,0,northwest,11015.1747,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1156,36,35-44,female,22.135,3,no,0,northeast,7228.21565,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1157,19,18-24,male,44.88,0,yes,1,southeast,39722.7462,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+1158,23,18-24,female,23.18,2,no,0,northwest,14426.07385,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1159,20,18-24,female,30.59,0,no,0,northeast,2459.7201,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1160,32,25-34,female,41.1,0,no,0,southwest,3989.841,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1161,43,35-44,female,34.58,1,no,0,northwest,7727.2532,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1162,34,35-44,male,42.13,2,no,0,southeast,5124.1887,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1163,30,25-34,male,38.83,1,no,0,southeast,18963.17192,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1164,18,18-24,female,28.215,0,no,0,northeast,2200.83085,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1165,41,35-44,female,28.31,1,no,0,northwest,7153.5539,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1166,35,35-44,female,26.125,0,no,0,northeast,5227.98875,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1167,57,55-64,male,40.37,0,no,0,southeast,10982.5013,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1168,29,25-34,female,24.6,2,no,0,southwest,4529.477,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1169,32,25-34,male,35.2,2,no,0,southwest,4670.64,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1170,37,35-44,female,34.105,1,no,0,northwest,6112.35295,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1171,18,18-24,male,27.36,1,yes,1,northeast,17178.6824,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1172,43,35-44,female,26.7,2,yes,1,southwest,22478.6,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1173,56,55-64,female,41.91,0,no,0,southeast,11093.6229,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1174,38,35-44,male,29.26,2,no,0,northwest,6457.8434,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1175,29,25-34,male,32.11,2,no,0,northwest,4433.9159,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1176,22,18-24,female,27.1,0,no,0,southwest,2154.361,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1177,52,45-54,female,24.13,1,yes,1,northwest,23887.6627,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1178,40,35-44,female,27.4,1,no,0,southwest,6496.886,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1179,23,18-24,female,34.865,0,no,0,northeast,2899.48935,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1180,31,25-34,male,29.81,0,yes,1,southeast,19350.3689,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1181,42,35-44,female,41.325,1,no,0,northeast,7650.77375,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1182,24,25-34,female,29.925,0,no,0,northwest,2850.68375,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1183,25,25-34,female,30.3,0,no,0,southwest,2632.992,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1184,48,45-54,female,27.36,1,no,0,northeast,9447.3824,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1185,23,18-24,female,28.49,1,yes,1,southeast,18328.2381,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1186,45,45-54,male,23.56,2,no,0,northeast,8603.8234,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1187,20,18-24,male,35.625,3,yes,1,northwest,37465.34375,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+1188,62,55-64,female,32.68,0,no,0,northwest,13844.7972,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1189,43,35-44,female,25.27,1,yes,1,northeast,21771.3423,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1190,23,18-24,female,28.0,0,no,0,southwest,13126.67745,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1191,31,25-34,female,32.775,2,no,0,northwest,5327.40025,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1192,41,35-44,female,21.755,1,no,0,northeast,13725.47184,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1193,58,55-64,female,32.395,1,no,0,northeast,13019.16105,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1194,48,45-54,female,36.575,0,no,0,northwest,8671.19125,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1195,31,25-34,female,21.755,0,no,0,northwest,4134.08245,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1196,19,18-24,female,27.93,3,no,0,northwest,18838.70366,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1197,19,18-24,female,30.02,0,yes,1,northwest,33307.5508,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+1198,41,35-44,male,33.55,0,no,0,southeast,5699.8375,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1199,40,35-44,male,29.355,1,no,0,northwest,6393.60345,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1200,31,25-34,female,25.8,2,no,0,southwest,4934.705,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1201,37,35-44,male,24.32,2,no,0,northwest,6198.7518,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1202,46,45-54,male,40.375,2,no,0,northwest,8733.22925,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1203,22,18-24,male,32.11,0,no,0,northwest,2055.3249,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1204,51,45-54,male,32.3,1,no,0,northeast,9964.06,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1205,18,18-24,female,27.28,3,yes,1,southeast,18223.4512,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1206,35,35-44,male,17.86,1,no,0,northwest,5116.5004,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1207,59,55-64,female,34.8,2,no,0,southwest,36910.60803,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1208,36,35-44,male,33.4,2,yes,1,southwest,38415.474,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1209,37,35-44,female,25.555,1,yes,1,northeast,20296.86345,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1210,59,55-64,male,37.1,1,no,0,southwest,12347.172,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1211,36,35-44,male,30.875,1,no,0,northwest,5373.36425,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1212,39,35-44,male,34.1,2,no,0,southeast,23563.01618,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1213,18,18-24,male,21.47,0,no,0,northeast,1702.4553,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1214,52,45-54,female,33.3,2,no,0,southwest,10806.839,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1215,27,25-34,female,31.255,1,no,0,northwest,3956.07145,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1216,18,18-24,male,39.14,0,no,0,northeast,12890.05765,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1217,40,35-44,male,25.08,0,no,0,southeast,5415.6612,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1218,29,25-34,male,37.29,2,no,0,southeast,4058.1161,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1219,46,45-54,female,34.6,1,yes,1,southwest,41661.602,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1220,38,35-44,female,30.21,3,no,0,northwest,7537.1639,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1221,30,25-34,female,21.945,1,no,0,northeast,4718.20355,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1222,40,35-44,male,24.97,2,no,0,southeast,6593.5083,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1223,50,45-54,male,25.3,0,no,0,southeast,8442.667,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1224,20,18-24,female,24.42,0,yes,1,southeast,26125.67477,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1225,41,35-44,male,23.94,1,no,0,northeast,6858.4796,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1226,33,25-34,female,39.82,1,no,0,southeast,4795.6568,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1227,38,35-44,male,16.815,2,no,0,northeast,6640.54485,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1228,42,35-44,male,37.18,2,no,0,southeast,7162.0122,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1229,56,55-64,male,34.43,0,no,0,southeast,10594.2257,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1230,58,55-64,male,30.305,0,no,0,northeast,11938.25595,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1231,52,45-54,male,34.485,3,yes,1,northwest,60021.39897,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1232,20,18-24,female,21.8,0,yes,1,southwest,20167.33603,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1233,54,55-64,female,24.605,3,no,0,northwest,12479.70895,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1234,58,55-64,male,23.3,0,no,0,southwest,11345.519,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1235,45,45-54,female,27.83,2,no,0,southeast,8515.7587,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1236,26,25-34,male,31.065,0,no,0,northwest,2699.56835,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1237,63,55-64,female,21.66,0,no,0,northeast,14449.8544,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1238,58,55-64,female,28.215,0,no,0,northwest,12224.35085,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1239,37,35-44,male,22.705,3,no,0,northeast,6985.50695,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1240,25,25-34,female,42.13,1,no,0,southeast,3238.4357,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1241,52,45-54,male,41.8,2,yes,1,southeast,47269.854,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1242,64,65+,male,36.96,2,yes,1,southeast,49577.6624,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1243,22,18-24,female,21.28,3,no,0,northwest,4296.2712,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1244,28,25-34,female,33.11,0,no,0,southeast,3171.6149,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1245,18,18-24,male,33.33,0,no,0,southeast,1135.9407,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1246,28,25-34,male,24.3,5,no,0,southwest,5615.369,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1247,45,45-54,female,25.7,3,no,0,southwest,9101.798,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1248,33,25-34,male,29.4,4,no,0,southwest,6059.173,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1249,18,18-24,female,39.82,0,no,0,southeast,1633.9618,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1250,32,25-34,male,33.63,1,yes,1,northeast,37607.5277,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1251,24,25-34,male,29.83,0,yes,1,northeast,18648.4217,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1252,19,18-24,male,19.8,0,no,0,southwest,1241.565,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1253,20,18-24,male,27.3,0,yes,1,southwest,16232.847,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1254,40,35-44,female,29.3,4,no,0,southwest,15828.82173,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1255,34,35-44,female,27.72,0,no,0,southeast,4415.1588,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1256,42,35-44,female,37.9,0,no,0,southwest,6474.013,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1257,51,45-54,female,36.385,3,no,0,northwest,11436.73815,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1258,54,55-64,female,27.645,1,no,0,northwest,11305.93455,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1259,55,55-64,male,37.715,3,no,0,northwest,30063.58055,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1260,52,45-54,female,23.18,0,no,0,northeast,10197.7722,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1261,32,25-34,female,20.52,0,no,0,northeast,4544.2348,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1262,28,25-34,male,37.1,1,no,0,southwest,3277.161,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1263,41,35-44,female,28.05,1,no,0,southeast,6770.1925,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1264,43,35-44,female,29.9,1,no,0,southwest,7337.748,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1265,49,45-54,female,33.345,2,no,0,northeast,10370.91255,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1266,64,65+,male,23.76,0,yes,1,southeast,26926.5144,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1267,55,55-64,female,30.5,0,no,0,southwest,10704.47,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1268,24,25-34,male,31.065,0,yes,1,northeast,34254.05335,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+1269,20,18-24,female,33.3,0,no,0,southwest,1880.487,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1270,45,45-54,male,27.5,3,no,0,southwest,8615.3,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1271,26,25-34,male,33.915,1,no,0,northwest,3292.52985,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1272,25,25-34,female,34.485,0,no,0,northwest,3021.80915,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1273,43,35-44,male,25.52,5,no,0,southeast,14478.33015,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1274,35,35-44,male,27.61,1,no,0,southeast,4747.0529,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1275,26,25-34,male,27.06,0,yes,1,southeast,17043.3414,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1276,57,55-64,male,23.7,0,no,0,southwest,10959.33,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1277,22,18-24,female,30.4,0,no,0,northeast,2741.948,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1278,32,25-34,female,29.735,0,no,0,northwest,4357.04365,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1279,39,35-44,male,29.925,1,yes,1,northeast,22462.04375,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1280,25,25-34,female,26.79,2,no,0,northwest,4189.1131,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1281,48,45-54,female,33.33,0,no,0,southeast,8283.6807,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1282,47,45-54,female,27.645,2,yes,1,northwest,24535.69855,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1283,18,18-24,female,21.66,0,yes,1,northeast,14283.4594,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1284,18,18-24,male,30.03,1,no,0,southeast,1720.3537,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1285,61,55-64,male,36.3,1,yes,1,southwest,47403.88,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1286,47,45-54,female,24.32,0,no,0,northeast,8534.6718,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1287,28,25-34,female,17.29,0,no,0,northeast,3732.6251,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1288,36,35-44,female,25.9,1,no,0,southwest,5472.449,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1289,20,18-24,male,39.4,2,yes,1,southwest,38344.566,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+1290,44,45-54,male,34.32,1,no,0,southeast,7147.4728,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1291,38,35-44,female,19.95,2,no,0,northeast,7133.9025,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1292,19,18-24,male,34.9,0,yes,1,southwest,34828.654,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+1293,21,18-24,male,23.21,0,no,0,southeast,1515.3449,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1294,46,45-54,male,25.745,3,no,0,northwest,9301.89355,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1295,58,55-64,male,25.175,0,no,0,northeast,11931.12525,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1296,20,18-24,male,22.0,1,no,0,southwest,1964.78,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1297,18,18-24,male,26.125,0,no,0,northeast,1708.92575,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1298,28,25-34,female,26.51,2,no,0,southeast,4340.4409,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1299,33,25-34,male,27.455,2,no,0,northwest,5261.46945,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1300,19,18-24,female,25.745,1,no,0,northwest,2710.82855,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1301,45,45-54,male,30.36,0,yes,1,southeast,62592.87309,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1302,62,55-64,male,30.875,3,yes,1,northwest,46718.16325,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1303,25,25-34,female,20.8,1,no,0,southwest,3208.787,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1304,43,35-44,male,27.8,0,yes,1,southwest,37829.7242,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1305,42,35-44,male,24.605,2,yes,1,northeast,21259.37795,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1306,24,25-34,female,27.72,0,no,0,southeast,2464.6188,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1307,29,25-34,female,21.85,0,yes,1,northeast,16115.3045,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1308,32,25-34,male,28.12,4,yes,1,northwest,21472.4788,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1309,25,25-34,female,30.2,0,yes,1,southwest,33900.653,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+1310,41,35-44,male,32.2,2,no,0,southwest,6875.961,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1311,42,35-44,male,26.315,1,no,0,northwest,6940.90985,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1312,33,25-34,female,26.695,0,no,0,northwest,4571.41305,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1313,34,35-44,male,42.9,1,no,0,southwest,4536.259,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1314,19,18-24,female,34.7,2,yes,1,southwest,36397.576,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,True,Medical
+1315,30,25-34,female,23.655,3,yes,1,northwest,18765.87545,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1316,18,18-24,male,28.31,1,no,0,northeast,11272.33139,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1317,19,18-24,female,20.6,0,no,0,southwest,1731.677,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1318,18,18-24,male,53.13,0,no,0,southeast,1163.4627,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1319,35,35-44,male,39.71,4,no,0,northeast,19496.71917,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1320,39,35-44,female,26.315,2,no,0,northwest,7201.70085,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1321,31,25-34,male,31.065,3,no,0,northwest,5425.02335,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1322,62,55-64,male,26.695,0,yes,1,northeast,28101.33305,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1323,62,55-64,male,38.83,0,no,0,southeast,12981.3457,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1324,42,35-44,female,40.37,2,yes,1,southeast,43896.3763,Very High (>30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1325,31,25-34,male,25.935,1,no,0,northwest,4239.89265,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1326,61,55-64,male,33.535,0,no,0,northeast,13143.33665,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1327,42,35-44,female,32.87,0,no,0,northeast,7050.0213,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1328,51,45-54,male,30.03,1,no,0,southeast,9377.9047,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1329,23,18-24,female,24.225,2,no,0,northeast,22395.74424,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1330,52,45-54,male,38.6,2,no,0,southwest,10325.206,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1331,57,55-64,female,25.74,2,no,0,southeast,12629.1656,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1332,23,18-24,female,33.4,0,no,0,southwest,10795.93733,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1333,52,45-54,female,44.7,3,no,0,southwest,11411.685,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1334,50,45-54,male,30.97,3,no,0,northwest,10600.5483,Medium (5k-15k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1335,18,18-24,female,31.92,0,no,0,northeast,2205.9808,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1336,18,18-24,female,36.85,0,no,0,southeast,1629.8335,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1337,21,18-24,female,25.8,0,no,0,southwest,2007.945,Low (<5k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
+1338,61,55-64,female,29.07,0,yes,1,northwest,29141.3603,High (15k-30k),CAD,2026-03-08 19:14:28.042280,2026,3,1,6,False,Medical
