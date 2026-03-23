@@ -19,6 +19,25 @@ services:
       timeout: 5s
       retries: 5
 
+  redis: # ← 新增缓存
+    image: redis:7-alpine
+    container_name: claims_redis
+    restart: always
+    ports:
+      - "6379:6379"
+    command: redis-server --appendonly yes
+
+  rabbitmq: # ← 新增消息队列
+    image: rabbitmq:3-management-alpine
+    container_name: claims_rabbitmq
+    restart: always
+    ports:
+      - "5672:5672"    # AMQP
+      - "15672:15672"  # 管理界面
+    environment:
+      RABBITMQ_DEFAULT_USER: admin
+      RABBITMQ_DEFAULT_PASS: admin123
+
   localstack:
     image: localstack/localstack:3.4
     container_name: localstack
@@ -43,12 +62,15 @@ services:
       AIRFLOW__CORE__EXECUTOR: LocalExecutor
       AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
       AIRFLOW__WEBSERVER__EXPOSE_CONFIG: 'true'
-      _PIP_ADDITIONAL_REQUIREMENTS: "apache-airflow-providers-postgres apache-airflow-providers-amazon pandas sqlalchemy psycopg2-binary boto3 pyarrow python-dotenv"
+      _PIP_ADDITIONAL_REQUIREMENTS: "apache-airflow-providers-postgres apache-airflow-providers-amazon pandas sqlalchemy psycopg2-binary boto3 pyarrow python-dotenv redis pika"
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://etl_user:etl_pass123@postgres/claims_db
       _AIRFLOW_WWW_USER_USERNAME: admin
       _AIRFLOW_WWW_USER_PASSWORD: admin
       _AIRFLOW_DB_UPGRADE: true
+      AIRFLOW__RABBITMQ_USER: admin
+      AIRFLOW__RABBITMQ_PASS: admin123
     volumes:
+      - ./.env:/opt/airflow/.env
       - ./dags:/opt/airflow/dags
       - ./logs:/opt/airflow/logs
       - ./plugins:/opt/airflow/plugins
@@ -62,6 +84,28 @@ services:
         condition: service_healthy
       localstack:
         condition: service_started
+
+  rabbitmq-consumer:
+    image: apache/airflow:2.9.3-python3.11  # 复用 airflow 镜像（已有 pika 等依赖）
+    container_name: claims_consumer
+    restart: always
+    command: python /opt/airflow/scripts/queue_consumer.py
+    volumes:
+      - ./.env:/opt/airflow/.env
+      - ./scripts:/opt/airflow/scripts
+      - ./dags:/opt/airflow/dags  # 可选，如果 consumer 需要访问 DAG 相关
+    depends_on:
+      - rabbitmq
+      - redis  # 如果后续要写 Redis
+    environment:
+      - RABBITMQ_HOST=rabbitmq
+      - PYTHONUNBUFFERED=1  # 👈 核心修复：强制 Python 实时刷新日志
+      - PYTHONPATH=/opt/airflow
+      - AIRFLOW__RABBITMQ_USER=admin
+      - AIRFLOW__RABBITMQ_PASS=admin123
+      - _PIP_ADDITIONAL_REQUIREMENTS=pika python-dotenv redis
+
+
 
 volumes:
   postgres_data:

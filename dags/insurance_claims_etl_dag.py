@@ -13,6 +13,8 @@ from sqlalchemy import create_engine
 from scripts.extract import extract_task
 from scripts.load_to_s3 import create_s3_bucket, upload_to_s3, load_to_redshift_sim
 from scripts.transform import transform_claims
+from scripts.cache import cache_fraud_rules_and_summary
+from scripts.queue_publish import publish_etl_completed_event
 
 # 注意：我们先不导入 load，等 DAG 能跑了再加
 
@@ -69,6 +71,16 @@ with DAG(
         }
 
     @task
+    def cache_and_publish(transform_result):
+        cache_fraud_rules_and_summary()
+
+        # 简单计算 fraud_count（实际生产可从 DB 查询）
+        fraud_count = 46  # 可动态从 DB 取
+        publish_etl_completed_event(transform_result["transformed_rows"], fraud_count)
+
+        return {"cached": True, "event_published": True}
+
+    @task
     def load(transform_result):
         parquet_path = transform_result['parquet_path']
 
@@ -92,6 +104,7 @@ with DAG(
     transform_result = transform()
     # load_result = load(transform_result)
     load(transform_result)
+    cache_and_publish(transform_result)
 
 
 
