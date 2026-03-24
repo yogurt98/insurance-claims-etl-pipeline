@@ -6,9 +6,11 @@ import pandas as pd
 from airflow import DAG
 from airflow.decorators import task
 from airflow.operators.python import get_current_context
+from airflow.models import Variable
 from dotenv import load_dotenv
 from sqlalchemy import create_engine
 
+from scripts.dq_check import run_dq_checks
 # 导入我们写的脚本函数
 from scripts.extract import extract_task
 from scripts.load_to_s3 import create_s3_bucket, upload_to_s3, load_to_redshift_sim
@@ -39,6 +41,8 @@ with DAG(
     @task
     def extract():
         """Task 1: 从 CSV 提取数据到 PostgreSQL raw_claims"""
+        # 可以从Airflow的 Admin Variable 动态决定是否全量
+        full_refresh = Variable.get("claims_full_refresh", default_var="False") == "True"
         result = extract_task()
         return result
 
@@ -97,13 +101,17 @@ with DAG(
             's3_url': s3_url,
             **load_result
         }
+    @task
+    def dq_check():
+        """Task 4: 数据质量检查"""
+        return run_dq_checks()
 
     # DAG 流向：extract -> transform
-    # extract_result = extract()
-    extract()
-    transform_result = transform()
-    # load_result = load(transform_result)
-    load(transform_result)
+
+    extract_result = extract()
+    transform_result = transform()   # 传递参数（即使目前没用）
+    load_result = load(transform_result)
+    dq_result = dq_check()
     cache_and_publish(transform_result)
 
 

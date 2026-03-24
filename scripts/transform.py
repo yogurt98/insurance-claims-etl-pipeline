@@ -17,13 +17,14 @@ def transform_claims(df: pd.DataFrame) -> pd.DataFrame:
     print("开始 Transform ...")
 
     df = df.copy()  # 保留原始数据
-
-    # 模拟真实理赔日期：随机分布在过去 2 年内（2024-01-01 到 2026-01-01 左右）
-    base_date = datetime(2024, 1, 1)
-    df["claim_date"] = [
-        base_date + timedelta(days=random.randint(0, 730))
-        for _ in range(len(df))
-    ]
+    # 如果 df 中没有 claim_date 才做兜底生成（防止首次运行问题）
+    if 'claim_date' not in df.columns or df['claim_date'].isnull().all():
+        print("警告：claim_date 缺失，生成模拟日期")
+        base_date = datetime(2024, 1, 1)
+        df["claim_date"] = [
+            base_date + timedelta(days=random.randint(0, 730))
+            for _ in range(len(df))
+        ]
 
     # 1. 缺失值处理（现在没有，但生产中一定有)
     df['age'] = df['age'].fillna(df['age'].median())

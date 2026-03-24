@@ -47,5 +47,19 @@ class TransformedClaim(Base):
     fraud_flag = Column(Boolean)
     claim_type = Column(String(50))
 
+
     def __repr__(self):
         return f"<TransformedClaim(id={self.id}, fraud_flag={self.fraud_flag})>"
+
+
+
+class EtlWatermark(Base):
+    __tablename__ = "etl_watermark"
+
+    id = Column(Integer, primary_key=True)
+    process_key = Column(String(100), unique=True, nullable=False)  # e.g. "claims_etl"
+    last_processed_date = Column(DateTime, nullable=False, default=datetime(1900, 1, 1))
+    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+
+    def __repr__(self):
+        return f"<EtlWatermark(key={self.process_key}, last_date={self.last_processed_date})>"
