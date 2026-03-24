@@ -10,28 +10,39 @@ The pipeline implements a **Medallion Architecture** (Bronze → Silver → Gold
 
 ---
 ## Architecture & Screenshots
+```mermaid
+flowchart TD
+subgraph "Raw Data (Bronze)"
+A[Kaggle Insurance CSV] --> B[Airflow Extract Task]
+B -->|Incremental Load + Watermark| C[PostgreSQL\nraw_claims]
+end
 
-[//]: # (1. **Ingestion &#40;Extract&#41;**: Python-based extraction from CSV with **Smart Incremental Loading** and **Memory-safe Chunking**.)
+    subgraph "Transformation (Silver)"
+        C --> D[Airflow Transform Task\nFeature Engineering]
+        D --> E[age_group, charge_group, fraud_flag]
+        D --> F[Data Quality Check]
+    end
 
-[//]: # ()
-[//]: # ()
-[//]: # (2. **Storage &#40;PostgreSQL&#41;**: Data is landed in a `raw_claims` table acting as a Bronze/Landing zone.)
+    subgraph "Serving Layer (Gold)"
+        F --> G[Parquet File]
+        G --> H[Load to LocalStack S3]
+        G --> I[Load to PostgreSQL\ntransformed_claims]
+        I --> J[Power BI Dashboard]
+    end
 
-[//]: # ()
-[//]: # ()
-[//]: # (3. **Transformation**: Data cleaning, feature engineering &#40;Age grouping, Charge categorizing&#41;, and fraud flag logic.)
+    subgraph "Supporting Services"
+        K[Redis Cache\nFraud Rules + Summary]
+        L[RabbitMQ\nETL Completion Event]
+    end
 
-[//]: # ()
-[//]: # ()
-[//]: # (4. **Cloud Storage &#40;S3/LocalStack&#41;**: Processed data is converted to **Parquet** and uploaded to S3 for long-term analytical storage.)
+    D --> K
+    F --> L
 
-[//]: # ()
-[//]: # ()
-[//]: # (5. **Event-Driven Alerts**: A **RabbitMQ** producer triggers events upon **ETL** completion, which are picked up by an asynchronous consumer to simulate real-time fraud alerting.)
-
-[//]: # ()
-[//]: # ()
-[//]: # (6. **Caching &#40;Redis&#41;**: Aggregated summaries and fraud rules are cached for sub-second dashboard access.)
+    style A fill:#f9f,stroke:#333
+    style J fill:#bbf,stroke:#333
+      
+      
+```
 
 ### Airflow DAG Overview
 ![Airflow DAG](screenshots/airflow_dag.png)
@@ -59,6 +70,7 @@ The pipeline implements a **Medallion Architecture** (Bronze → Silver → Gold
 - Redis caching layer for fraud rules and real-time summary
 - Parquet format + Simulated AWS S3 (LocalStack) + Redshift (PostgreSQL)
 - Power BI dashboard directly connected to the transformed layer
+
 
 ---
 
