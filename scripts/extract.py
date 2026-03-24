@@ -14,7 +14,7 @@ load_dotenv()
 # ── 数据库连接 ────────────────────────────────────────────────
 DB_USER = os.getenv("POSTGRES_USER", "etl_user")
 DB_PASS = os.getenv("POSTGRES_PASSWORD", "etl_pass123")
-DB_HOST = os.getenv("POSTGRES_HOST", "postgres")      # 本地调试用 localhost，容器内用 postgres
+DB_HOST = os.getenv("POSTGRES_HOST", "postgres")      # 容器内用 postgres
 DB_PORT = os.getenv("POSTGRES_PORT", "5432")
 DB_NAME = os.getenv("POSTGRES_DB", "claims_db")
 
@@ -27,53 +27,72 @@ SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 # ── 文件路径 ──────────────────────────────────────────────────
 ROOT_DIR = os.path.dirname(os.path.dirname((os.path.abspath(__file__))))
-RAW_FILE = os.path.join(ROOT_DIR, "data", "raw", "insurance_claims_raw.csv")   # ← 改成你实际的文件名
+RAW_FILE = os.path.join(ROOT_DIR, "data", "raw", "insurance_claims_raw.csv")
+
+PROCESS_KEY = "claims_main_etl"
 
 # ── 增量管理辅助函数 ───────────────────────────────────────────
-def get_last_processed_date():
+def get_last_processed_date(session) -> datetime:
     """获取上次处理的最大日期"""
-    var_key = "claims_last_processed_date"
-    # 如果 Variable 不存在，默认从 1900 年开始（全量）
-    last_date_str = Variable.get(var_key, default_var="1900-01-01")
-    return datetime.fromisoformat(last_date_str)
+    result = session.execute(
+        text("SELECT last_processed_date FROM etl_watermark WHERE process_key = :key"),
+        {"key": PROCESS_KEY}
+    ).scalar()
 
-def update_last_processed_date(new_max_date: datetime):
-    """更新 Airflow 变量"""
-    var_key = "claims_last_processed_date"
-    # 转换成字符串存储
-    Variable.set(var_key, new_max_date.isoformat())
-    print(f"✅ 更新 Airflow 变量 {var_key} 为 {new_max_date}")
+
+    # 第一次运行，默认返回一个很早的日期（触发全量）
+    return result if result else datetime(1900, 1, 1)
+
+
+def update_watermark(session, new_max_date: datetime):
+    """更新或插入 watermark"""
+    session.execute(
+        text("""
+            INSERT INTO etl_watermark (process_key, last_processed_date, updated_at)
+            VALUES (:key, :date, NOW())
+            ON CONFLICT (process_key)
+            DO UPDATE SET last_processed_date = :date, updated_at = NOW()
+        """),
+        {"key": PROCESS_KEY, "date": new_max_date}
+    )
+    session.commit()
+    print(f"✅ Watermark 已更新: {new_max_date}")
 
 
 # ── 核心逻辑 ──────────────────────────────────────────────────
-def extract():
-    full_refresh = Variable.get("claims_full_refresh", default_var="False") == "True"
-    incremental = not full_refresh
-    last_date = get_last_processed_date() if incremental else datetime(1900, 1, 1)
+def extract(full_refresh: bool = False) -> dict:
+    """支持增量加载的主任务"""
+    print("🚀 开始 Extract 任务...")
 
-    print(f"开始 Extract 任务 | Full Refresh: {full_refresh} | Incremental: {incremental} | Start Date: {last_date}")
     if not os.path.exists(RAW_FILE):
-        print(f"文件不存在：{RAW_FILE}")
-        return
+        raise FileNotFoundError(f"原始文件不存在: {RAW_FILE}")
 
     session = SessionLocal()
     total_inserted = 0
-    new_watermark = last_date # 初始设为旧的，后面对比更新
+    current_max_date = datetime(1900, 1, 1)
 
     try:
-        # 1. 如果是全量刷新，先清空表
-        if full_refresh:
-            print("🗑️ Full Refresh 模式：正在清空 raw_claims 表...")
+        # 获取上次处理时间
+        last_processed = get_last_processed_date(session)
+        # 🟢 核心修改点：如果外部强制 full_refresh，或者数据库没记录，才算全量
+        is_actually_full = full_refresh or (last_processed.year == 1900)
+
+        print(f"当前模式: {'全量加载 (首次运行)' if is_actually_full else '增量加载'}")
+
+
+        if is_actually_full:
+            print("🗑️ 模式: 全量加载 (正在清空 raw_claims 并重置 Watermark)")
             session.execute(text("TRUNCATE TABLE raw_claims RESTART IDENTITY;"))
             session.commit()
+            last_processed = datetime(1900, 1, 1)
+
+        print(f"上次处理日期: {last_processed}")
 
         # 2. 分块读取 CSV (防止内存爆炸)
         print(f"读取文件：{RAW_FILE}")
         print(f"📖 开始读取文件并分批处理 (每批 10000 条)...")
         reader = pd.read_csv(RAW_FILE, chunksize=10000)
 
-        # 记录已读取的总行数，用于生成确定性的日期
-        global_row_count = 0
 
         for i, chunk in enumerate(reader):
             # --- 数据清洗与模拟日期 ---
@@ -92,28 +111,27 @@ def extract():
 
 
             # 模拟真实理赔日期：随机分布在过去 2 年内，增量时不重新生成
-            if full_refresh or chunk.get('claim_date') is None:
+            # 只在首次全量时生成 claim_date
+            if 'claim_date' not in chunk.columns or chunk['claim_date'].isnull().all():
                 base_date = datetime(2024, 1, 1)
                 chunk["claim_date"] = [
-                    base_date + timedelta(days=idx % 730)  # 固定循环 2 年
-                    for idx in range(len(chunk))
+                    base_date + pd.Timedelta(days=idx % 730) for idx in range(len(chunk))
                 ]
-
 
             # fraud_flag 先全部设为 False，后面 transform 再判断
             chunk["fraud_flag"] = False
 
-            # --- 核心增量过滤 ---
-            if incremental and not full_refresh:
-                chunk = chunk[chunk['claim_date'] > last_date]
+            # 增量过滤
+            if not is_actually_full:
+                chunk = chunk[chunk["claim_date"] > last_processed]
 
             if chunk.empty:
                 continue
 
             # 记录当前批次的最大日期，用于更新 Watermark
             batch_max = chunk['claim_date'].max()
-            if batch_max > new_watermark:
-                new_watermark = batch_max
+            if batch_max > current_max_date:
+                current_max_date = batch_max
 
             # --- 批量插入数据库 ---
             records = [RawClaim(**row.to_dict()) for _, row in chunk.iterrows()]
@@ -124,29 +142,35 @@ def extract():
             print(f"   [Batch {i+1}] 成功插入 {len(records)} 条新记录")
 
         # 3. 更新 Airflow Watermark
-        if incremental and total_inserted > 0:
-            update_last_processed_date(new_watermark)
-        print(f"Extract 完成，共处理 {total_inserted} 行")
-        return {"extracted_rows": total_inserted, "full_refresh": full_refresh}
+        if total_inserted > 0:
+            update_watermark(session, current_max_date)
+        else:
+            print("ℹ️  本次没有新数据，无需更新 Watermark")
+
+        print(f"✅ Extract 完成，共处理 {total_inserted} 行")
+        return {
+            "extracted_rows": total_inserted,
+            "is_first_run": is_actually_full,
+            "mode": "full" if is_actually_full else "incremental"
+        }
 
     except Exception as e:
         session.rollback()
-        print(f"❌ ETL 过程出错: {str(e)}")
+        print(f"❌ Extract failed: {str(e)}")
         raise
     finally:
         session.close()
 
 
-
-
-
-
 # ── Airflow Task 接口
-def extract_task():
+
+
+def extract_task(full_refresh: bool = False):
     print("开始 Extract 任务")
-    result = extract()
+    result = extract(full_refresh=full_refresh)
     print(f"Extract 任务完成， 处理{result['extracted_rows']}行")
     return result
+
 
 if __name__ == "__main__":
     print("开始执行 extract → PostgreSQL")

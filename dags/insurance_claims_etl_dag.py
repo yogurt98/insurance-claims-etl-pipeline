@@ -43,7 +43,8 @@ with DAG(
         """Task 1: 从 CSV 提取数据到 PostgreSQL raw_claims"""
         # 可以从Airflow的 Admin Variable 动态决定是否全量
         full_refresh = Variable.get("claims_full_refresh", default_var="False") == "True"
-        result = extract_task()
+        print(f"Extract 任务启动 | Force Full Refresh: {full_refresh}")
+        result = extract_task(full_refresh)
         return result
 
     @task

@@ -19,13 +19,19 @@ services:
       timeout: 5s
       retries: 5
 
-  redis: # ← 新增缓存
+  redis:
     image: redis:7-alpine
     container_name: claims_redis
     restart: always
     ports:
       - "6379:6379"
     command: redis-server --appendonly yes
+    healthcheck:
+      test: [ "CMD", "redis-cli", "ping" ]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+      start_period: 10s
 
   rabbitmq: # ← 新增消息队列
     image: rabbitmq:3-management-alpine
@@ -82,6 +88,10 @@ services:
     depends_on:
       postgres:
         condition: service_healthy
+      redis:
+        condition: service_healthy      # ← 新增
+      rabbitmq:
+        condition: service_started
       localstack:
         condition: service_started
 

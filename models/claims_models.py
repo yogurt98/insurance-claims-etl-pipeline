@@ -56,8 +56,8 @@ class TransformedClaim(Base):
 class EtlWatermark(Base):
     __tablename__ = "etl_watermark"
 
-    id = Column(Integer, primary_key=True)
-    process_key = Column(String(100), unique=True, nullable=False)  # e.g. "claims_etl"
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    process_key = Column(String(100), unique=True, nullable=False)  # e.g. "claims_main_etl"
     last_processed_date = Column(DateTime, nullable=False, default=datetime(1900, 1, 1))
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
 
