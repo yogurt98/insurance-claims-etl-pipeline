@@ -69,19 +69,19 @@ insurance-claims-etl-pipeline/
 ## Architecture & Screenshots
 
 ### 1. Airflow DAG Overview
-![Airflow DAG](screenshots\airflow_dag.png)
+![Airflow DAG](screenshots/airflow_dag.png)
 
 ### 2. Incremental Load Control via Airflow Variables
-![Airflow Variables](screenshots\airflow_variables.png)
+![Airflow Variables](screenshots/airflow_variables.png)
 
 ### 3. Data Quality Check in Action
-![DQ Check](screenshots\dq_check_success.png)
+![DQ Check](screenshots/dq_check_success.png)
 
 ### 4. Power BI Dashboard
-![Power BI Overview](screenshots\powerbi_dashboard.png)
+![Power BI Overview](screenshots/powerbi_dashboard.png)
 
 ### 5. RabbitMQ Event Publishing
-![RabbitMQ](screenshots\rabbitmq_queues.png)
+![RabbitMQ](screenshots/rabbitmq_queues.png)
 ---
 
 ## How to Run (Quick Start)
